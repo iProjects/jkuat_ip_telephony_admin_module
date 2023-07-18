@@ -1,0 +1,13 @@
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\jkuat_ip_telephony_dal.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\jkuat_ip_telephony_dal.pdb
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\obj\Debug\jkuat_ip_telephony_dal.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\obj\Debug\jkuat_ip_telephony_dal.pdb
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\Mono.Security.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\MySql.Data.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\MySql.Data.Entity.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\MySql.Data.xml
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\Npgsql.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\Npgsql.xml
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\SQLite.Designer.dll
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\bin\Debug\libs\SQLite.Designer.xml
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\obj\Debug\jkuat_ip_telephony_dal.csprojResolveAssemblyReference.cache

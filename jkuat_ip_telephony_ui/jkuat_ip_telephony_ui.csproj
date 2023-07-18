@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7C59CD8-8BC5-465B-AD4F-BC86A28FEC0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jkuat_ip_telephony_ui</RootNamespace>
+    <AssemblyName>jkuat_ip_telephony_ui</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=4.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>libs\Microsoft.Office.Interop.Excel.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about_form.Designer.cs">
+      <DependentUpon>about_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crystal_reports\extension_CrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>extension_CrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="datasets\campusesDataSet.cs">
+      <DependentUpon>campusesDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasets\campusesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>campusesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="campuses_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campuses_form.Designer.cs">
+      <DependentUpon>campuses_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contact_us_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact_us_form.Designer.cs">
+      <DependentUpon>contact_us_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crystal_reports\department_CrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>department_CrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="crystal_reports_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crystal_reports_form.Designer.cs">
+      <DependentUpon>crystal_reports_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datasets\departmentsDataSet.cs">
+      <DependentUpon>departmentsDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasets\departmentsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>departmentsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datasets\extensionsDataSet.cs">
+      <DependentUpon>extensionsDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasets\extensionsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>extensionsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="departments_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="departments_form.Designer.cs">
+      <DependentUpon>departments_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extensions_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="extensions_form.Designer.cs">
+      <DependentUpon>extensions_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_form.Designer.cs">
+      <DependentUpon>main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="crystal_reports\campus_CrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>campus_CrystalReport.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reports\excelbuilder\department_excel_builder.cs" />
+    <Compile Include="reports\excelbuilder\extension_excel_builder.cs" />
+    <Compile Include="reports\excelbuilder\CreateExcelDoc.cs" />
+    <Compile Include="reports\excelbuilder\campus_excel_builder.cs" />
+    <Compile Include="reports\modelbuilder\department_model_builder.cs" />
+    <Compile Include="reports\modelbuilder\extension_model_builder.cs" />
+    <Compile Include="reports\model\campus_model_report.cs" />
+    <Compile Include="reports\modelbuilder\campus_model_builder.cs" />
+    <Compile Include="reports\model\department_model_report.cs" />
+    <Compile Include="reports\model\extension_model_report.cs" />
+    <Compile Include="reports\pdfbuilder\campus_pdf_builder.cs" />
+    <Compile Include="reports\pdfbuilder\department_pdf_builder.cs" />
+    <Compile Include="reports\pdfbuilder\extension_pdf_builder.cs" />
+    <Compile Include="reports\viewer\PDFGen.cs" />
+    <Compile Include="pdf_viewer_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdf_viewer_form.Designer.cs">
+      <DependentUpon>pdf_viewer_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reports\viewer\VVX_File.cs" />
+    <Compile Include="reports\viewer\VVX_FileDialog.cs" />
+    <Compile Include="reports\viewer\VVX_ImageTools.cs" />
+    <Compile Include="reports\viewer\VVX_MsgBox.cs" />
+    <Compile Include="settings_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings_form.Designer.cs">
+      <DependentUpon>settings_form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about_form.resx">
+      <DependentUpon>about_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="campuses_form.resx">
+      <DependentUpon>campuses_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact_us_form.resx">
+      <DependentUpon>contact_us_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="crystal_reports\department_CrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>department_CrystalReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="crystal_reports\extension_CrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>extension_CrystalReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="crystal_reports_form.resx">
+      <DependentUpon>crystal_reports_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="departments_form.resx">
+      <DependentUpon>departments_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extensions_form.resx">
+      <DependentUpon>extensions_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_form.resx">
+      <DependentUpon>main_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="pdf_viewer_form.resx">
+      <DependentUpon>pdf_viewer_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="crystal_reports\campus_CrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>campus_CrystalReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="settings_form.resx">
+      <DependentUpon>settings_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="datasets\campusesDataSet.xsc">
+      <DependentUpon>campusesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasets\campusesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>campusesDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="datasets\campusesDataSet.xss">
+      <DependentUpon>campusesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasets\departmentsDataSet.xsc">
+      <DependentUpon>departmentsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasets\departmentsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>departmentsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="datasets\departmentsDataSet.xss">
+      <DependentUpon>departmentsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasets\extensionsDataSet.xsc">
+      <DependentUpon>extensionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datasets\extensionsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>extensionsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="datasets\extensionsDataSet.xss">
+      <DependentUpon>extensionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\jkuat_ip_telephony_dal\jkuat_ip_telephony_dal.csproj">
+      <Project>{D1E5A71A-E329-415D-95FF-9583A1026358}</Project>
+      <Name>jkuat_ip_telephony_dal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\AxShockwaveFlashObjects.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\CrystalDecisions.CrystalReports.Engine.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\CrystalDecisions.ReportSource.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\CrystalDecisions.Shared.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\CrystalDecisions.Windows.Forms.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\itextsharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\itextsharp.pdfa.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\iTextSharp.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\itextsharp.xtra.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\itextsharp_v5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\Microsoft.Office.Interop.Excel.DLL" />
+    <Content Include="resources\add.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\avator.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\avator2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\cancel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\clear_search.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\delete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\edit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\error.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\favicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\InstallImg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat_image_screen.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat_logo_old.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat_screen_image.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\jkuat_screen_image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\loading.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\search.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\success.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Instalační služba systému Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,77 @@
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:31:29 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:31:29 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:31:31 AM
+SOURCE:
+MESSAGE:finished campuses_form initialization
+Whole Exception:System.Exception: finished campuses_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:31:32 AM
+SOURCE:
+MESSAGE:fetched [ 16 ] campuses.
+Whole Exception:System.Exception: fetched [ 16 ] campuses.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:31:32 AM
+SOURCE:
+MESSAGE:finished campuses_form load
+Whole Exception:System.Exception: finished campuses_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:35 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:35 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:37 AM
+SOURCE:
+MESSAGE:finished campuses_form initialization
+Whole Exception:System.Exception: finished campuses_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:38 AM
+SOURCE:
+MESSAGE:fetched [ 16 ] campuses.
+Whole Exception:System.Exception: fetched [ 16 ] campuses.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:38 AM
+SOURCE:
+MESSAGE:finished campuses_form load
+Whole Exception:System.Exception: finished campuses_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :18/07/2023 09:38:53 AM
+SOURCE:
+MESSAGE:generating file [ D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\reports\campuses_template.xlsx ]...
+Whole Exception:System.Exception: generating file [ D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\reports\campuses_template.xlsx ]...
+==================================================================
+
