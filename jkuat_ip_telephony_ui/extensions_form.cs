@@ -269,6 +269,7 @@ namespace jkuat_ip_telephony_ui
                     string response = upload_data(strFileName);
                     if (response.Length > 0)
                     {
+                        _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response, TAG));
                         Utils.ShowError(new Exception(response));
                     }
                     else
@@ -312,7 +313,8 @@ namespace jkuat_ip_telephony_ui
                         + strFileName + ";Extended Properties=\"Excel 12.0;HDR=Yes;IMEX=2\"";
                 }
 
-                query = "SELECT CAMPUSNAME, DEPARTMENTNAME, OWNERASSIGNED, EXTENSIONNUMBER FROM [Sheet1$]";
+                //query = "SELECT CAMPUSNAME, DEPARTMENTNAME, OWNERASSIGNED, EXTENSIONNUMBER FROM [Sheet1$]";
+                query = "SELECT * FROM [Sheet1$]";
 
                 using (var excel_Connection = new OleDbConnection(SourceConnectionString))
 
@@ -325,6 +327,45 @@ namespace jkuat_ip_telephony_ui
                     OleDbDataReader excel_Reader = excel_Command.ExecuteReader();
 
                     int created_record_count = 0;
+
+                    List<string> excel_columns = new List<string>();
+                    DataTable schema = excel_Reader.GetSchemaTable();
+                    foreach (DataRow row in schema.Rows)
+                    {
+                        excel_columns.Add(row[schema.Columns["ColumnName"]].ToString());
+                    }
+
+                    if (excel_columns.Count != 4)
+                    {
+                        sb.AppendLine("Uploaded file does not conform to extensions template.");
+                        return sb.ToString();
+                    }
+
+                    for (int i = 0; i < excel_columns.Count; i++)
+                    {
+                        if (excel_columns[i].Contains("CAMPUSNAME"))
+                        {
+                            excel_columns.Remove("CAMPUSNAME");
+                        }
+                        if (excel_columns[i].Contains("DEPARTMENTNAME"))
+                        {
+                            excel_columns.Remove("DEPARTMENTNAME");
+                        }
+                        if (excel_columns[i].Contains("OWNERASSIGNED"))
+                        {
+                            excel_columns.Remove("OWNERASSIGNED");
+                        }
+                        if (excel_columns[i].Contains("EXTENSIONNUMBER"))
+                        {
+                            excel_columns.Remove("EXTENSIONNUMBER");
+                        }
+                    }
+
+                    if (excel_columns.Count > 0)
+                    {
+                        sb.AppendLine("Uploaded file does not conform to extensions template.");
+                        return sb.ToString();
+                    }
 
                     // Looping through the values and displaying  
                     while (excel_Reader.Read())

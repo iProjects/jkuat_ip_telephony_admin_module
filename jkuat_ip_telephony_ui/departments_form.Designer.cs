@@ -37,12 +37,12 @@
             this.Column_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_created_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btndownloadtemplate = new System.Windows.Forms.Button();
             this.btnuploadexcel = new System.Windows.Forms.Button();
             this.btndownloadexcel = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
             this.bindingSource_departments = new System.Windows.Forms.BindingSource(this.components);
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btndownloadtemplate = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_departments)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -133,6 +133,17 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
+            // btndownloadtemplate
+            // 
+            this.btndownloadtemplate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndownloadtemplate.Location = new System.Drawing.Point(12, 17);
+            this.btndownloadtemplate.Name = "btndownloadtemplate";
+            this.btndownloadtemplate.Size = new System.Drawing.Size(124, 23);
+            this.btndownloadtemplate.TabIndex = 8;
+            this.btndownloadtemplate.Text = "Download &Template";
+            this.btndownloadtemplate.UseVisualStyleBackColor = true;
+            this.btndownloadtemplate.Click += new System.EventHandler(this.btndownloadtemplate_Click);
+            // 
             // btnuploadexcel
             // 
             this.btnuploadexcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -170,17 +181,6 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "filename";
-            // 
-            // btndownloadtemplate
-            // 
-            this.btndownloadtemplate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndownloadtemplate.Location = new System.Drawing.Point(12, 17);
-            this.btndownloadtemplate.Name = "btndownloadtemplate";
-            this.btndownloadtemplate.Size = new System.Drawing.Size(124, 23);
-            this.btndownloadtemplate.TabIndex = 8;
-            this.btndownloadtemplate.Text = "Download &Template";
-            this.btndownloadtemplate.UseVisualStyleBackColor = true;
-            this.btndownloadtemplate.Click += new System.EventHandler(this.btndownloadtemplate_Click);
             // 
             // departments_form
             // 

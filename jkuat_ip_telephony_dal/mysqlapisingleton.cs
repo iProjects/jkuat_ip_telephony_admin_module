@@ -545,6 +545,41 @@ namespace jkuat_ip_telephony_dal
             return department;
         }
 
+        public department_dto get_department_given_campus_name_and_department_name(string campus_name, string department_name)
+        {
+            department_dto department = null;
+
+            string query = "SELECT * FROM " + DBContract.department_entity_table.TABLE_NAME + " as departments " +
+                "INNER JOIN " + DBContract.campus_entity_table.TABLE_NAME + " as campuses ON departments.campus_id = campuses.id " +
+                "WHERE departments.department_name = @department_name AND campuses.campus_name = @campus_name";
+
+            using (var con = new MySqlConnection(CONNECTION_STRING))
+            {
+                con.Open();
+                //open a new command
+                using (var cmd = new MySqlCommand(query, con))
+                {
+                    //here we are setting the parameter values that will be actually replaced in the query in Execute method                
+                    cmd.Parameters.AddWithValue("@campus_name", campus_name);
+                    cmd.Parameters.AddWithValue("@department_name", department_name);
+
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        department = new department_dto();
+                        department.id = reader.GetInt32(0).ToString();
+                        department.campus_id = reader.GetInt32(1).ToString();
+                        department.department_name = reader.GetString(2).ToString();
+                        department.status = reader.GetString(3);
+                        department.created_date = reader.GetString(4);
+
+                    }
+                }
+            }
+
+            return department;
+        }
+
         public extension_dto get_extension_given_extension_number(string extension_number)
         {
             extension_dto extension = lst_get_all_extensions().Where(i => i.extension_number == extension_number).FirstOrDefault();
@@ -756,6 +791,54 @@ namespace jkuat_ip_telephony_dal
                 _responsedto.responseerrormessage = ex.Message;
                 return _responsedto;
             }
+        }
+
+        public responsedto login(string email, string password)
+        {
+            responsedto _responsedto = new responsedto();
+
+            user_dto user = null;
+
+            string query = "SELECT * FROM " + DBContract.user_entity_table.TABLE_NAME +
+                " WHERE email = @email AND password = @password";
+
+            using (var con = new MySqlConnection(CONNECTION_STRING))
+            {
+                con.Open();
+                //open a new command
+                using (var cmd = new MySqlCommand(query, con))
+                {
+                    //here we are setting the parameter values that will be actually replaced in the query in Execute method                  
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@password", password);
+
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        user = new user_dto();
+                        user.id = reader.GetInt32(0).ToString();
+                        user.email = reader.GetString(1);
+                        user.full_names = reader.GetString(2);
+                        user.password = reader.GetString(3);
+                        user.secretword = reader.GetString(4);
+                        user.status = reader.GetString(5);
+                        user.created_date = reader.GetString(6);
+                    }
+                }
+            }
+
+            if (user == null)
+            {
+                _responsedto.isresponseresultsuccessful = false;
+                _responsedto.responseerrormessage = "Login failed. Check Email and Password.";
+            }
+            else
+            {
+                _responsedto.isresponseresultsuccessful = true;
+                _responsedto.responsesuccessmessage = "Login successfull.";
+            }
+
+            return _responsedto;
         }
 
 

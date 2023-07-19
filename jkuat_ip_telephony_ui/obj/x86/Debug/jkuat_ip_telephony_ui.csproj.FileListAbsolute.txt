@@ -64,3 +64,7 @@ D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_tele
 D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\crystal_reports\extension_CrystalReport.rpt
 D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\crystal_reports\extension_CrystalReport.cs
 D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\resources\InstallImg.jpg
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\TimeStampObserver.xml
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\obj\x86\Debug\jkuat_ip_telephony_ui.login_form.resources
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\obj\x86\Debug\jkuat_ip_telephony_ui.SplashScreen.resources
+D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\bin\Debug\resources\jkuat_icon.ico

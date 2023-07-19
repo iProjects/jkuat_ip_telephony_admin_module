@@ -51,6 +51,9 @@
     <Compile Include="app_assembly_info.cs" />
     <Compile Include="campus_dto.cs" />
     <Compile Include="connectionstringdto.cs" />
+    <Compile Include="SBSystem.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="user_dto.cs" />
     <Compile Include="DBContract.cs" />
     <Compile Include="department_dto.cs" />
     <Compile Include="errordto.cs" />

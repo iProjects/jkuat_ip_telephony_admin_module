@@ -52,6 +52,13 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.lblloggedinuser = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblrunningtime = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lbltimelapsed = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblbuildversion = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton_campuses = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -68,11 +75,6 @@
             this.txtlog = new System.Windows.Forms.RichTextBox();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.appNotifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.lblbuildversion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lbldatetime = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lbltimelapsed = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -241,17 +243,62 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.BackColor = System.Drawing.Color.LimeGreen;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lblbuildversion,
+            this.lblloggedinuser,
             this.toolStripStatusLabel1,
-            this.lbldatetime,
+            this.lblrunningtime,
             this.toolStripStatusLabel2,
-            this.lbltimelapsed});
+            this.lbltimelapsed,
+            this.toolStripStatusLabel3,
+            this.lblbuildversion});
             this.statusStrip1.Location = new System.Drawing.Point(0, 697);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1221, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // lblloggedinuser
+            // 
+            this.lblloggedinuser.Name = "lblloggedinuser";
+            this.lblloggedinuser.Size = new System.Drawing.Size(89, 17);
+            this.lblloggedinuser.Text = "lblloggedinuser";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(37, 17);
+            this.toolStripStatusLabel1.Text = "          ";
+            // 
+            // lblrunningtime
+            // 
+            this.lblrunningtime.Name = "lblrunningtime";
+            this.lblrunningtime.Size = new System.Drawing.Size(86, 17);
+            this.lblrunningtime.Text = "lblrunningtime";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(37, 17);
+            this.toolStripStatusLabel2.Text = "          ";
+            // 
+            // lbltimelapsed
+            // 
+            this.lbltimelapsed.Name = "lbltimelapsed";
+            this.lbltimelapsed.Size = new System.Drawing.Size(78, 17);
+            this.lbltimelapsed.Text = "lbltimelapsed";
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(37, 17);
+            this.toolStripStatusLabel3.Text = "          ";
+            // 
+            // lblbuildversion
+            // 
+            this.lblbuildversion.Name = "lblbuildversion";
+            this.lblbuildversion.Size = new System.Drawing.Size(85, 17);
+            this.lblbuildversion.Text = "lblbuildversion";
             // 
             // toolStrip1
             // 
@@ -397,36 +444,6 @@
             this.appNotifyIcon.Text = "appNotifyIcon";
             this.appNotifyIcon.Visible = true;
             // 
-            // lblbuildversion
-            // 
-            this.lblbuildversion.Name = "lblbuildversion";
-            this.lblbuildversion.Size = new System.Drawing.Size(85, 17);
-            this.lblbuildversion.Text = "lblbuildversion";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(37, 17);
-            this.toolStripStatusLabel1.Text = "          ";
-            // 
-            // lbldatetime
-            // 
-            this.lbldatetime.Name = "lbldatetime";
-            this.lbldatetime.Size = new System.Drawing.Size(67, 17);
-            this.lbldatetime.Text = "lbldatetime";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(37, 17);
-            this.toolStripStatusLabel2.Text = "          ";
-            // 
-            // lbltimelapsed
-            // 
-            this.lbltimelapsed.Name = "lbltimelapsed";
-            this.lbltimelapsed.Size = new System.Drawing.Size(78, 17);
-            this.lbltimelapsed.Text = "lbltimelapsed";
-            // 
             // main_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -440,8 +457,9 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "main_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jkuat Ip Telephony Admin";
+            this.Text = "Jkuat Online Ip Telephony Admin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.main_form_FormClosing);
             this.Load += new System.EventHandler(this.main_form_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -500,9 +518,11 @@
         private System.Windows.Forms.NotifyIcon appNotifyIcon;
         private System.Windows.Forms.ToolStripStatusLabel lblbuildversion;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripStatusLabel lbldatetime;
+        private System.Windows.Forms.ToolStripStatusLabel lblrunningtime;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.ToolStripStatusLabel lbltimelapsed; 
+        private System.Windows.Forms.ToolStripStatusLabel lbltimelapsed;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.ToolStripStatusLabel lblloggedinuser; 
     }
 }
 

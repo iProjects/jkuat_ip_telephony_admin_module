@@ -245,6 +245,7 @@ namespace jkuat_ip_telephony_ui
                     string response = upload_data(strFileName);
                     if (response.Length > 0)
                     {
+                        _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response, TAG));
                         Utils.ShowError(new Exception(response));
                     }
                     else
@@ -288,7 +289,8 @@ namespace jkuat_ip_telephony_ui
                         + strFileName + ";Extended Properties=\"Excel 12.0;HDR=Yes;IMEX=2\"";
                 }
 
-                query = "SELECT CAMPUSNAME, DEPARTMENTNAME FROM [Sheet1$]";
+                //query = "SELECT CAMPUSNAME, DEPARTMENTNAME FROM [Sheet1$]";
+                query = "SELECT * FROM [Sheet1$]";
 
                 using (var excel_Connection = new OleDbConnection(SourceConnectionString))
 
@@ -302,20 +304,63 @@ namespace jkuat_ip_telephony_ui
 
                     int created_record_count = 0;
 
+                    List<string> excel_columns = new List<string>();
+                    DataTable schema = excel_Reader.GetSchemaTable();
+                    foreach (DataRow row in schema.Rows)
+                    {
+                        excel_columns.Add(row[schema.Columns["ColumnName"]].ToString());
+                    }
+
+                    if (excel_columns.Count != 2)
+                    {
+                        sb.AppendLine("Uploaded file does not conform to departments template.");
+                        return sb.ToString();
+                    }
+
+                    for (int i = 0; i < excel_columns.Count; i++)
+                    {
+                        if (excel_columns[i].Contains("CAMPUSNAME"))
+                        {
+                            excel_columns.Remove("CAMPUSNAME");
+                        }
+                        if (excel_columns[i].Contains("DEPARTMENTNAME"))
+                        {
+                            excel_columns.Remove("DEPARTMENTNAME");
+                        }
+                    }
+
+                    if (excel_columns.Count > 0)
+                    {
+                        sb.AppendLine("Uploaded file does not conform to departments template.");
+                        return sb.ToString();
+                    }
+
                     // Looping through the values and displaying  
                     while (excel_Reader.Read())
                     {
                         string campus_name = excel_Reader["CAMPUSNAME"].ToString();
                         string department_name = excel_Reader["DEPARTMENTNAME"].ToString();
 
+                        //string extension_number = excel_Reader["EXTENSIONNUMBER"].ToString().Trim();
+
+                        //if (extension_number != null)
+                        //{
+                        //    sb.AppendLine("Uploaded file does not conform to departments template.");
+                        //    return sb.ToString();
+                        //}
+
                         Console.WriteLine("campus_name [ " + campus_name + " ]");
                         Console.WriteLine("department_name [ " + department_name + " ]");
 
                         campus_dto campus = mysqlapisingleton.getInstance(_notificationmessageEventname).get_campus_given_name(campus_name);
                         department_dto department = mysqlapisingleton.getInstance(_notificationmessageEventname).get_department_given_name(department_name);
+                        department_dto campus_department = mysqlapisingleton.getInstance(_notificationmessageEventname).get_department_given_campus_name_and_department_name(campus_name, department_name);
 
-                        if (department == null)
+
+                        //department for campus does not exist.
+                        if (campus_department == null)
                         {
+                            //campus exist.
                             if (campus != null)
                             {
                                 department_name = Utils.ConvertFirstLetterToUpper(department_name);
@@ -325,16 +370,20 @@ namespace jkuat_ip_telephony_ui
 
                                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("created department [ " + department_name + " ] for campus [ " + campus_name + " ].", TAG));
                             }
+                            //campus does not exist.
                             else
                             {
                                 sb.AppendLine("campus [ " + campus_name + " ] does not exists.");
                                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("campus [ " + campus_name + " ] does not exists.", TAG));
                             }
                         }
+                        //department for campus exist.
                         else
                         {
-                            _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("department [ " + department_name + " ] exists.", TAG));
+                            //sb.AppendLine("department [ " + department_name + " ] for campus [ " + campus_name + " ] exists.");
+                            _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("department [ " + department_name + " ] for campus [ " + campus_name + " ] exists.", TAG));
                         }
+
                     }
 
                     if (created_record_count > 0)

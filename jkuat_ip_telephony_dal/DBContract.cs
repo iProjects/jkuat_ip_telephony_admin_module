@@ -64,6 +64,7 @@ namespace jkuat_ip_telephony_dal
             public static String CREATED_DATE = "created_date";
 
         }
+
         public static class department_entity_table
         {
             public static String TABLE_NAME = "tbl_departments";
@@ -75,6 +76,7 @@ namespace jkuat_ip_telephony_dal
             public static String CREATED_DATE = "created_date";
 
         }
+
         public static class extension_entity_table
         {
             public static String TABLE_NAME = "tbl_extensions";
@@ -84,6 +86,20 @@ namespace jkuat_ip_telephony_dal
             public static String DEPARTMENT_ID = "department_id";
             public static String OWNER_ASSIGNED = "owner_assigned";
             public static String EXTENSION_NUMBER = "extension_number";
+            public static String STATUS = "status";
+            public static String CREATED_DATE = "created_date";
+
+        }
+
+        public static class user_entity_table
+        {
+            public static String TABLE_NAME = "tbl_users";
+            //Columns of the table
+            public static String ID = "id";
+            public static String EMAIL = "email";
+            public static String FULL_NAMES = "full_names";
+            public static String PASSWORD = "password";
+            public static String SECRETWORD = "secretword";
             public static String STATUS = "status";
             public static String CREATED_DATE = "created_date";
 

@@ -267,7 +267,7 @@ namespace jkuat_ip_telephony_ui
             try
             {
                 appNotifyIcon.Text = Utils.APP_NAME;
-                appNotifyIcon.Icon = new Icon("Resources/favicon.ico");
+                appNotifyIcon.Icon = new Icon("resources/favicon.ico");
                 appNotifyIcon.BalloonTipIcon = ToolTipIcon.Info;
                 appNotifyIcon.BalloonTipTitle = _Title;
                 appNotifyIcon.BalloonTipText = _Text;

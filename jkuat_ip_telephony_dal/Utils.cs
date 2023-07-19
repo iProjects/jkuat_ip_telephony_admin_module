@@ -23,6 +23,7 @@ namespace jkuat_ip_telephony_dal
         public static string AUTO_COMPLETE_USERS_FILENAME = "resources/auto_complete_users.xml";
         public static string AUTO_COMPLETE_SERVER_LOGIN_FILENAME = "resources/auto_complete_server_login.xml";
         public static string ACTIVATOR_FILENAME = "resources/activator.xml";
+        public static int SPLASH_SCREEN_LOAD_TIME = 10;
 
         public static string NextSeries(string from)
         {
@@ -147,7 +148,7 @@ namespace jkuat_ip_telephony_dal
                 using (NotifyIcon appNotifyIcon = new NotifyIcon())
                 {
                     appNotifyIcon.Text = Utils.APP_NAME;
-                    appNotifyIcon.Icon = new Icon("Resources/Icons/Dollar.ico");
+                    appNotifyIcon.Icon = new Icon("resources/favicon.ico");
                     ContextMenuStrip contextMenuStripSystemNotification = new ContextMenuStrip();
                     appNotifyIcon.ContextMenuStrip = contextMenuStripSystemNotification;
                     appNotifyIcon.BalloonTipIcon = ToolTipIcon.Info;
