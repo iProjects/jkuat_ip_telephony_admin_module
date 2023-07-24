@@ -70,7 +70,7 @@ namespace jkuat_ip_telephony_dal
         public campus_dto build_campus_dto_given_datatable(DataTable dt, int _index)
         {
             campus_dto _dto = new campus_dto();
-            _dto.id = Convert.ToString(dt.Rows[_index][DBContract.campus_entity_table.ID]);
+            _dto.id = Convert.ToInt32(dt.Rows[_index][DBContract.campus_entity_table.ID]);
             _dto.campus_name = Convert.ToString(dt.Rows[_index][DBContract.campus_entity_table.CAMPUS_NAME]);
             _dto.status = Convert.ToString(dt.Rows[_index][DBContract.campus_entity_table.STATUS]);
             _dto.created_date = Convert.ToString(dt.Rows[_index][DBContract.campus_entity_table.CREATED_DATE]);

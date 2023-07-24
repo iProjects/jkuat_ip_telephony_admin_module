@@ -290,19 +290,19 @@ UnhandledExceptionEventHandler(UnhandledException);
 
         private void campusesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            campuses_form campuses = new campuses_form(this._notificationmessageEventname);
+            campuses_form campuses = new campuses_form(this._notificationmessageEventname, logged_in_user);
             campuses.Show();
         }
 
         private void departmentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            departments_form departments = new departments_form(this._notificationmessageEventname);
+            departments_form departments = new departments_form(this._notificationmessageEventname, logged_in_user);
             departments.Show();
         }
 
         private void extensionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            extensions_form extensions = new extensions_form(this._notificationmessageEventname);
+            extensions_form extensions = new extensions_form(this._notificationmessageEventname, logged_in_user);
             extensions.Show();
         }
 
@@ -320,17 +320,23 @@ UnhandledExceptionEventHandler(UnhandledException);
 
         private void toolStripButton_campuses_Click(object sender, EventArgs e)
         {
+            toolStripButton_campuses.Enabled = false;
             campusesToolStripMenuItem_Click(sender, e);
+            toolStripButton_campuses.Enabled = true;
         }
 
         private void toolStripButton_departments_Click(object sender, EventArgs e)
         {
+            toolStripButton_departments.Enabled = false;
             departmentsToolStripMenuItem_Click(sender, e);
+            toolStripButton_departments.Enabled = true;
         }
 
         private void toolStripButton_extensions_Click(object sender, EventArgs e)
         {
+            toolStripButton_extensions.Enabled = false;
             extensionsToolStripMenuItem_Click(sender, e);
+            toolStripButton_extensions.Enabled = true;
         }
 
         private void toolStripButton_exit_Click(object sender, EventArgs e)

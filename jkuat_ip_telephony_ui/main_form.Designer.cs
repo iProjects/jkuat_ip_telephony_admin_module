@@ -109,6 +109,7 @@
             // 
             // settingsToolStripMenuItem
             // 
+            this.settingsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("settingsToolStripMenuItem.Image")));
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.settingsToolStripMenuItem.Text = "&Settings";
@@ -121,6 +122,7 @@
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
@@ -140,32 +142,35 @@
             // 
             // campusesToolStripMenuItem
             // 
+            this.campusesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("campusesToolStripMenuItem.Image")));
             this.campusesToolStripMenuItem.Name = "campusesToolStripMenuItem";
-            this.campusesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.campusesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.campusesToolStripMenuItem.Text = "&Campuses";
             this.campusesToolStripMenuItem.Click += new System.EventHandler(this.campusesToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(139, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
             // 
             // departmentsToolStripMenuItem
             // 
+            this.departmentsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("departmentsToolStripMenuItem.Image")));
             this.departmentsToolStripMenuItem.Name = "departmentsToolStripMenuItem";
-            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.departmentsToolStripMenuItem.Text = "&Departments";
             this.departmentsToolStripMenuItem.Click += new System.EventHandler(this.departmentsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(139, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // extensionsToolStripMenuItem
             // 
+            this.extensionsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("extensionsToolStripMenuItem.Image")));
             this.extensionsToolStripMenuItem.Name = "extensionsToolStripMenuItem";
-            this.extensionsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.extensionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.extensionsToolStripMenuItem.Text = "&Extensions";
             this.extensionsToolStripMenuItem.Click += new System.EventHandler(this.extensionsToolStripMenuItem_Click);
             // 
@@ -181,6 +186,7 @@
             // 
             // pdfReportsToolStripMenuItem
             // 
+            this.pdfReportsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pdfReportsToolStripMenuItem.Image")));
             this.pdfReportsToolStripMenuItem.Name = "pdfReportsToolStripMenuItem";
             this.pdfReportsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.pdfReportsToolStripMenuItem.Text = "&Pdf Reports";
@@ -193,6 +199,7 @@
             // 
             // crystalReportsToolStripMenuItem
             // 
+            this.crystalReportsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("crystalReportsToolStripMenuItem.Image")));
             this.crystalReportsToolStripMenuItem.Name = "crystalReportsToolStripMenuItem";
             this.crystalReportsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.crystalReportsToolStripMenuItem.Text = "Cr&ystal Reports";

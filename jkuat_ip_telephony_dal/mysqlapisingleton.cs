@@ -457,7 +457,7 @@ namespace jkuat_ip_telephony_dal
                     while (reader.Read())
                     {
                         campus_dto dto = new campus_dto();
-                        dto.id = reader.GetInt32(0).ToString();
+                        dto.id = reader.GetInt32(0);
                         dto.campus_name = reader.GetString(1);
                         dto.status = reader.GetString(2);
                         dto.created_date = reader.GetString(3);
@@ -481,8 +481,8 @@ namespace jkuat_ip_telephony_dal
                     while (reader.Read())
                     {
                         department_dto dto = new department_dto();
-                        dto.id = reader.GetInt32(0).ToString();
-                        dto.campus_id = reader.GetInt32(1).ToString();
+                        dto.id = reader.GetInt32(0);
+                        dto.campus_id = reader.GetInt32(1);
                         dto.department_name = reader.GetString(2);
                         dto.status = reader.GetString(3);
                         dto.created_date = reader.GetString(4);
@@ -506,9 +506,9 @@ namespace jkuat_ip_telephony_dal
                     while (reader.Read())
                     {
                         extension_dto dto = new extension_dto();
-                        dto.id = reader.GetInt32(0).ToString();
-                        dto.campus_id = reader.GetInt32(1).ToString();
-                        dto.department_id = reader.GetInt32(2).ToString();
+                        dto.id = reader.GetInt32(0);
+                        dto.campus_id = reader.GetInt32(1);
+                        dto.department_id = reader.GetInt32(2);
                         dto.owner_assigned = reader.GetString(3);
                         dto.extension_number = reader.GetString(4);
                         dto.status = reader.GetString(5);
@@ -521,7 +521,7 @@ namespace jkuat_ip_telephony_dal
             return lst_records;
         }
 
-        public campus_dto get_campus_given_id(string id)
+        public campus_dto get_campus_given_id(int id)
         {
             campus_dto campus = lst_get_all_campuses().Where(i => i.id == id).FirstOrDefault();
             return campus;
@@ -533,7 +533,7 @@ namespace jkuat_ip_telephony_dal
             return campus;
         }
 
-        public department_dto get_department_given_id(string id)
+        public department_dto get_department_given_id(int id)
         {
             department_dto department = lst_get_all_departments().Where(i => i.id == id).FirstOrDefault();
             return department;
@@ -567,8 +567,8 @@ namespace jkuat_ip_telephony_dal
                     while (reader.Read())
                     {
                         department = new department_dto();
-                        department.id = reader.GetInt32(0).ToString();
-                        department.campus_id = reader.GetInt32(1).ToString();
+                        department.id = reader.GetInt32(0);
+                        department.campus_id = reader.GetInt32(1);
                         department.department_name = reader.GetString(2).ToString();
                         department.status = reader.GetString(3);
                         department.created_date = reader.GetString(4);
@@ -644,7 +644,7 @@ namespace jkuat_ip_telephony_dal
             }
         }
 
-        public responsedto create_campus_from_upload(string campus_name)
+        public responsedto create_campus_from_upload(string campus_name, string logged_in_user)
         {
             responsedto _responsedto = new responsedto();
             try
@@ -654,15 +654,17 @@ namespace jkuat_ip_telephony_dal
                 " ( " +
                 DBContract.campus_entity_table.CAMPUS_NAME + ", " +
                 DBContract.campus_entity_table.STATUS + ", " +
-                DBContract.campus_entity_table.CREATED_DATE +
-                " ) VALUES(@campus_name, @status, @created_date)";
+                DBContract.department_entity_table.CREATED_DATE + ", " +
+                DBContract.department_entity_table.ADDED_BY +
+                " ) VALUES(@campus_name, @status, @created_date, @addedby)";
 
                 //here we are setting the parameter values that will be actually replaced in the query in Execute method
                 var args = new Dictionary<string, object>
 			    {
 				    {"@campus_name", campus_name},
                     {"@status", "active"},
-				    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")}
+				    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")},
+				    {"@addedby", logged_in_user}
 			    };
 
                 int numberOfRowsAffected = insertgeneric(query, args, CONNECTION_STRING);
@@ -691,7 +693,7 @@ namespace jkuat_ip_telephony_dal
             }
         }
 
-        public responsedto create_department_from_upload(string campus_id, string department_name)
+        public responsedto create_department_from_upload(string campus_id, string department_name, string logged_in_user)
         {
             responsedto _responsedto = new responsedto();
             try
@@ -702,16 +704,18 @@ namespace jkuat_ip_telephony_dal
                 DBContract.department_entity_table.CAMPUS_ID + ", " +
                 DBContract.department_entity_table.DEPARTMENT_NAME + ", " +
                 DBContract.department_entity_table.STATUS + ", " +
-                DBContract.department_entity_table.CREATED_DATE +
-                " ) VALUES(@campus_id, @department_name, @status, @created_date)";
+                DBContract.department_entity_table.CREATED_DATE + ", " +
+                DBContract.department_entity_table.ADDED_BY +
+                " ) VALUES(@campus_id, @department_name, @status, @created_date, @addedby)";
 
                 //here we are setting the parameter values that will be actually replaced in the query in Execute method
                 var args = new Dictionary<string, object>
 			    {
 				    {"@campus_id", campus_id},
                     {"@department_name", department_name},
-                    {"@status", "active"},
-				    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")}
+                    {"@status", "active"}, 
+				    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")},
+				    {"@addedby", logged_in_user}
 			    };
 
                 int numberOfRowsAffected = insertgeneric(query, args, CONNECTION_STRING);
@@ -740,7 +744,7 @@ namespace jkuat_ip_telephony_dal
             }
         }
 
-        public responsedto create_extension_from_upload(string campus_id, string department_id, string owner_assigned, string extension_number)
+        public responsedto create_extension_from_upload(string campus_id, string department_id, string owner_assigned, string extension_number, string logged_in_user)
         {
             responsedto _responsedto = new responsedto();
             try
@@ -753,8 +757,9 @@ namespace jkuat_ip_telephony_dal
                 DBContract.extension_entity_table.OWNER_ASSIGNED + ", " +
                 DBContract.extension_entity_table.EXTENSION_NUMBER + ", " +
                 DBContract.extension_entity_table.STATUS + ", " +
-                DBContract.extension_entity_table.CREATED_DATE +
-                " ) VALUES(@campus_id, @department_id, @owner_assigned, @extension_number, @status, @created_date)";
+                DBContract.extension_entity_table.CREATED_DATE + ", " +
+                DBContract.extension_entity_table.ADDED_BY +
+                " ) VALUES(@campus_id, @department_id, @owner_assigned, @extension_number, @status, @created_date, @addedby)";
 
                 //here we are setting the parameter values that will be actually replaced in the query in Execute method
                 var args = new Dictionary<string, object>
@@ -764,7 +769,8 @@ namespace jkuat_ip_telephony_dal
                     {"@owner_assigned", owner_assigned},
                     {"@extension_number", extension_number},
                     {"@status", "active"},
-				    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")}
+                    {"@created_date", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss tt")},
+				    {"@addedby", logged_in_user}
 			    };
 
                 int numberOfRowsAffected = insertgeneric(query, args, CONNECTION_STRING);

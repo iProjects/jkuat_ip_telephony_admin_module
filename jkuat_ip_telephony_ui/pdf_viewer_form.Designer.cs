@@ -64,6 +64,9 @@
             this.tabPage_extensions = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView_extensions = new System.Windows.Forms.DataGridView();
+            this.Column_extension_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_extension_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_owner_assigned = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage_logs = new System.Windows.Forms.TabPage();
             this.txtlog = new System.Windows.Forms.RichTextBox();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
@@ -71,9 +74,6 @@
             this.bindingSource_campuses = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource_departments = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource_extensions = new System.Windows.Forms.BindingSource(this.components);
-            this.Column_extension_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_extension_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_owner_assigned = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -134,8 +134,9 @@
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -153,32 +154,35 @@
             // 
             // campusesToolStripMenuItem
             // 
+            this.campusesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("campusesToolStripMenuItem.Image")));
             this.campusesToolStripMenuItem.Name = "campusesToolStripMenuItem";
-            this.campusesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.campusesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.campusesToolStripMenuItem.Text = "&Campuses";
             this.campusesToolStripMenuItem.Click += new System.EventHandler(this.campusesToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(139, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
             // 
             // departmentsToolStripMenuItem
             // 
+            this.departmentsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("departmentsToolStripMenuItem.Image")));
             this.departmentsToolStripMenuItem.Name = "departmentsToolStripMenuItem";
-            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.departmentsToolStripMenuItem.Text = "&Departments";
             this.departmentsToolStripMenuItem.Click += new System.EventHandler(this.departmentsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(139, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // extensionsToolStripMenuItem
             // 
+            this.extensionsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("extensionsToolStripMenuItem.Image")));
             this.extensionsToolStripMenuItem.Name = "extensionsToolStripMenuItem";
-            this.extensionsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.extensionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.extensionsToolStripMenuItem.Text = "&Extensions";
             this.extensionsToolStripMenuItem.Click += new System.EventHandler(this.extensionsToolStripMenuItem_Click);
             // 
@@ -424,6 +428,33 @@
             this.dataGridView_extensions.TabIndex = 1;
             this.dataGridView_extensions.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_extensions_DataError);
             // 
+            // Column_extension_id
+            // 
+            this.Column_extension_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column_extension_id.DataPropertyName = "id";
+            this.Column_extension_id.HeaderText = "#";
+            this.Column_extension_id.Name = "Column_extension_id";
+            this.Column_extension_id.ReadOnly = true;
+            this.Column_extension_id.Width = 50;
+            // 
+            // Column_extension_number
+            // 
+            this.Column_extension_number.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column_extension_number.DataPropertyName = "extension_number";
+            this.Column_extension_number.FillWeight = 59.88024F;
+            this.Column_extension_number.HeaderText = "Extension Number";
+            this.Column_extension_number.Name = "Column_extension_number";
+            this.Column_extension_number.ReadOnly = true;
+            // 
+            // Column_owner_assigned
+            // 
+            this.Column_owner_assigned.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column_owner_assigned.DataPropertyName = "owner_assigned";
+            this.Column_owner_assigned.FillWeight = 140.1198F;
+            this.Column_owner_assigned.HeaderText = "Owner Assigned";
+            this.Column_owner_assigned.Name = "Column_owner_assigned";
+            this.Column_owner_assigned.ReadOnly = true;
+            // 
             // tabPage_logs
             // 
             this.tabPage_logs.Controls.Add(this.txtlog);
@@ -462,33 +493,6 @@
             this.appNotifyIcon.Text = "appNotifyIcon";
             this.appNotifyIcon.Visible = true;
             // 
-            // Column_extension_id
-            // 
-            this.Column_extension_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column_extension_id.DataPropertyName = "id";
-            this.Column_extension_id.HeaderText = "#";
-            this.Column_extension_id.Name = "Column_extension_id";
-            this.Column_extension_id.ReadOnly = true;
-            this.Column_extension_id.Width = 50;
-            // 
-            // Column_extension_number
-            // 
-            this.Column_extension_number.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column_extension_number.DataPropertyName = "extension_number";
-            this.Column_extension_number.FillWeight = 59.88024F;
-            this.Column_extension_number.HeaderText = "Extension Number";
-            this.Column_extension_number.Name = "Column_extension_number";
-            this.Column_extension_number.ReadOnly = true;
-            // 
-            // Column_owner_assigned
-            // 
-            this.Column_owner_assigned.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column_owner_assigned.DataPropertyName = "owner_assigned";
-            this.Column_owner_assigned.FillWeight = 140.1198F;
-            this.Column_owner_assigned.HeaderText = "Owner Assigned";
-            this.Column_owner_assigned.Name = "Column_owner_assigned";
-            this.Column_owner_assigned.ReadOnly = true;
-            // 
             // pdf_viewer_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -498,6 +502,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "pdf_viewer_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

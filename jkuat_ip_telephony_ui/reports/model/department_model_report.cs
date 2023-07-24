@@ -35,8 +35,8 @@ namespace jkuat_ip_telephony_ui
     public class print_departments
     {
 
-        public string id { get; set; }
-        public string campus_id { get; set; }
+        public int id { get; set; }
+        public int campus_id { get; set; }
         public string campus_name { get; set; }
         public string department_name { get; set; }
         public string status { get; set; }

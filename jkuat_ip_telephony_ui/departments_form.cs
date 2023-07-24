@@ -18,11 +18,25 @@ namespace jkuat_ip_telephony_ui
         string _resourcesPath = null;
         event EventHandler<notificationmessageEventArgs> _notificationmessageEventname;
         string TAG;
+        /* to use a BackgroundWorker object to perform time-intensive operations in a background thread.
+		You need to:
+		1. Define a worker method that does the time-intensive work and call it from an event handler for the DoWork
+		event of a BackgroundWorker.
+		2. Start the execution with RunWorkerAsync. Any argument required by the worker method attached to DoWork
+		can be passed in via the DoWorkEventArgs parameter to RunWorkerAsync.
+		In addition to the DoWork event the BackgroundWorker class also defines two events that should be used for
+		interacting with the user interface. These are optional.
+		The RunWorkerCompleted event is triggered when the DoWork handlers have completed.
+		The ProgressChanged event is triggered when the ReportProgress method is called. */
+        BackgroundWorker bgWorker = new BackgroundWorker();
+        string current_action = string.Empty;
+        string logged_in_user;
 
-        public departments_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent)
+        public departments_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent, string _logged_in_user)
         {
             InitializeComponent();
 
+            logged_in_user = _logged_in_user;
 
             TAG = this.GetType().Name;
 
@@ -92,7 +106,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
-                this.bindingSource_departments.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_departments();
+                this.bindingSource_departments.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_departments().OrderByDescending(i=>i.id).ToList();
                 this.dataGridView_departments.DataSource = bindingSource_departments;
                 this.groupBox2.Text = bindingSource_departments.Count.ToString();
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("fetched [ " + bindingSource_departments.Count.ToString() + " ] departments.", TAG));
@@ -364,7 +378,10 @@ namespace jkuat_ip_telephony_ui
                             if (campus != null)
                             {
                                 department_name = Utils.ConvertFirstLetterToUpper(department_name);
-                                responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_department_from_upload(campus.id, department_name);
+                                responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_department_from_upload(campus.id.ToString(), department_name, logged_in_user);
+
+                                if (!response.isresponseresultsuccessful)
+                                    throw new Exception(response.responseerrormessage);
 
                                 created_record_count++;
 

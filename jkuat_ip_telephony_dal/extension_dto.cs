@@ -7,10 +7,10 @@ namespace jkuat_ip_telephony_dal
 {
     public class extension_dto
     {
-        public string id { get; set; }
-        public string campus_id { get; set; }
+        public int id { get; set; }
+        public int campus_id { get; set; }
         public string campus_name { get; set; }
-        public string department_id { get; set; }
+        public int department_id { get; set; }
         public string department_name { get; set; }
         public string owner_assigned { get; set; }
         public string extension_number { get; set; }

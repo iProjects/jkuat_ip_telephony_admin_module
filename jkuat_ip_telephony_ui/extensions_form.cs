@@ -18,11 +18,13 @@ namespace jkuat_ip_telephony_ui
         string _resourcesPath = null;
         event EventHandler<notificationmessageEventArgs> _notificationmessageEventname;
         string TAG;
+        string logged_in_user;
 
-        public extensions_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent)
+        public extensions_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent, string _logged_in_user)
         {
             InitializeComponent();
 
+            logged_in_user = _logged_in_user;
 
             TAG = this.GetType().Name;
 
@@ -116,7 +118,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
-                this.bindingSource_extensions.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_extensions();
+                this.bindingSource_extensions.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_extensions().OrderByDescending(i => i.id).ToList();
                 this.dataGridView_extensions.DataSource = bindingSource_extensions;
                 this.groupBox2.Text = bindingSource_extensions.Count.ToString();
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("fetched [ " + bindingSource_extensions.Count.ToString() + " ] extensions.", TAG));
@@ -390,7 +392,10 @@ namespace jkuat_ip_telephony_ui
                             {
                                 if (department != null)
                                 {
-                                    responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_extension_from_upload(campus.id, department.id, owner_assigned, extension_number);
+                                    responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_extension_from_upload(campus.id.ToString(), department.id.ToString(), owner_assigned, extension_number, logged_in_user);
+
+                                    if (!response.isresponseresultsuccessful)
+                                        throw new Exception(response.responseerrormessage);
 
                                     created_record_count++;
 

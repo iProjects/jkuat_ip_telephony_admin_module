@@ -20,11 +20,13 @@ namespace jkuat_ip_telephony_ui
         string _resourcesPath = null;
         event EventHandler<notificationmessageEventArgs> _notificationmessageEventname;
         string TAG;
+        string logged_in_user;
 
-        public campuses_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent)
+        public campuses_form(EventHandler<notificationmessageEventArgs> notificationmessageEventname_from_parent, string _logged_in_user)
         {
             InitializeComponent();
 
+            logged_in_user = _logged_in_user;
 
             TAG = this.GetType().Name;
 
@@ -70,7 +72,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
-                this.bindingSource_campuses.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_campuses();
+                this.bindingSource_campuses.DataSource = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_campuses().OrderByDescending(i => i.id).ToList();
                 this.dataGridView_campuses.DataSource = bindingSource_campuses;
                 this.groupBox2.Text = bindingSource_campuses.Count.ToString();
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("fetched [ " + bindingSource_campuses.Count.ToString() + " ] campuses.", TAG));
@@ -299,7 +301,7 @@ namespace jkuat_ip_telephony_ui
                     {
                         if (excel_columns[i].Contains("CAMPUSNAME"))
                         {
-                            excel_columns.Remove("CAMPUSNAME"); 
+                            excel_columns.Remove("CAMPUSNAME");
                         }
                     }
 
@@ -329,7 +331,10 @@ namespace jkuat_ip_telephony_ui
                         if (campus == null)
                         {
                             campus_name = Utils.ConvertFirstLetterToUpper(campus_name);
-                            responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_campus_from_upload(campus_name);
+                            responsedto response = mysqlapisingleton.getInstance(_notificationmessageEventname).create_campus_from_upload(campus_name, logged_in_user);
+
+                            if (!response.isresponseresultsuccessful)
+                                throw new Exception(response.responseerrormessage);
 
                             created_record_count++;
 

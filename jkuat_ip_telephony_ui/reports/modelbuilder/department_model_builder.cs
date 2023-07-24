@@ -62,10 +62,15 @@ namespace jkuat_ip_telephony_ui
 
                 List<department_dto> departments_dto = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_departments().ToList();
 
+                int counter = 0;
+
                 foreach (department_dto _dto in departments_dto)
                 {
+                    counter++;
+
                     print_departments _department = new print_departments();
-                    _department.id = _dto.id;
+                    //_department.id = _dto.id;
+                    _department.id = counter;
                     _department.campus_id = _dto.campus_id;
                     _department.campus_name = mysqlapisingleton.getInstance(_notificationmessageEventname).get_campus_given_id(_dto.campus_id).campus_name;
                     _department.department_name = _dto.department_name;

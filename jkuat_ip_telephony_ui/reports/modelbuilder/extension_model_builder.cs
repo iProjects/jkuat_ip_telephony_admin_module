@@ -54,6 +54,7 @@ namespace jkuat_ip_telephony_ui
                 Utils.ShowError(ex);
             }
         }
+
         private List<print_extensions> get_extensions()
         {
             try
@@ -70,7 +71,7 @@ namespace jkuat_ip_telephony_ui
 
                     print_extensions _extension = new print_extensions();
                     //_extension.id = _dto.id;
-                    _extension.id = counter.ToString();
+                    _extension.id = counter;
                     _extension.campus_id = _dto.campus_id;
                     _extension.campus_name = _dto.campus_name;
                     _extension.campus_name = mysqlapisingleton.getInstance(_notificationmessageEventname).get_campus_given_id(_dto.campus_id).campus_name;

@@ -66,6 +66,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
+                toolStripButton_campuses.Enabled = false;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("generating campuses crystal report...", TAG));
                 string app_title = this.Text;
                 this.Text = "generating campuses crystal report...";
@@ -78,13 +79,20 @@ namespace jkuat_ip_telephony_ui
                 DataRow row;
                 int i;
 
+                int counter = 0;
+
                 for (i = 0; i < lst_campuses.Count(); i++)
                 {
+                    counter++;
+
                     row = table.NewRow();
-                    row["Id"] = lst_campuses[i].id;
+
+                    //row["Id"] = lst_campuses[i].id;
+                    row["Id"] = counter.ToString();
                     row["Campus Name"] = lst_campuses[i].campus_name;
                     row["Status"] = lst_campuses[i].status;
                     row["Created Date"] = lst_campuses[i].created_date;
+
                     table.Rows.Add(row);
                 }
 
@@ -96,6 +104,7 @@ namespace jkuat_ip_telephony_ui
 
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("report generated successfully.", TAG));
                 this.Text = app_title;
+                toolStripButton_campuses.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -108,6 +117,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
+                toolStripButton_departments.Enabled = false;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("generating departments crystal report...", TAG));
                 string app_title = this.Text;
                 this.Text = "generating departments crystal report...";
@@ -120,14 +130,21 @@ namespace jkuat_ip_telephony_ui
                 DataRow row;
                 int i;
 
+                int counter = 0;
+
                 for (i = 0; i < lst_departments.Count(); i++)
                 {
+                    counter++;
+
                     row = table.NewRow();
-                    row["Id"] = lst_departments[i].id;
+
+                    //row["Id"] = lst_departments[i].id;
+                    row["Id"] = counter.ToString();
                     row["Campus"] = lst_departments[i].campus_name;
                     row["Department Name"] = lst_departments[i].department_name;
                     row["Status"] = lst_departments[i].status;
                     row["Created Date"] = lst_departments[i].created_date;
+
                     table.Rows.Add(row);
                 }
 
@@ -139,6 +156,7 @@ namespace jkuat_ip_telephony_ui
 
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("report generated successfully.", TAG));
                 this.Text = app_title;
+                toolStripButton_departments.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -151,6 +169,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
+                toolStripButton_extensions.Enabled = false;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("generating extensions crystal report...", TAG));
                 string app_title = this.Text;
                 this.Text = "generating extensions crystal report...";
@@ -163,16 +182,23 @@ namespace jkuat_ip_telephony_ui
                 DataRow row;
                 int i;
 
+                int counter = 0;
+
                 for (i = 0; i < lst_extensions.Count(); i++)
                 {
+                    counter++;
+
                     row = table.NewRow();
-                    row["Id"] = lst_extensions[i].id;
+
+                    //row["Id"] = lst_extensions[i].id;
+                    row["Id"] = counter.ToString();
                     row["Campus"] = lst_extensions[i].campus_name;
                     row["Department"] = lst_extensions[i].department_name;
                     row["Owner Assigned"] = lst_extensions[i].owner_assigned;
                     row["Extension Number"] = lst_extensions[i].extension_number;
                     row["Status"] = lst_extensions[i].status;
                     row["Created Date"] = lst_extensions[i].created_date;
+
                     table.Rows.Add(row);
                 }
 
@@ -184,6 +210,7 @@ namespace jkuat_ip_telephony_ui
 
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("report generated successfully.", TAG));
                 this.Text = app_title;
+                toolStripButton_extensions.Enabled = true;
             }
             catch (Exception ex)
             {

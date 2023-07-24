@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(campuses_form));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btndownloadtemplate = new System.Windows.Forms.Button();
             this.btnuploadexcel = new System.Windows.Forms.Button();
             this.btndownloadexcel = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
@@ -42,7 +44,6 @@
             this.Column_created_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingSource_campuses = new System.Windows.Forms.BindingSource(this.components);
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btndownloadtemplate = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_campuses)).BeginInit();
@@ -61,6 +62,17 @@
             this.groupBox1.Size = new System.Drawing.Size(528, 47);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // btndownloadtemplate
+            // 
+            this.btndownloadtemplate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndownloadtemplate.Location = new System.Drawing.Point(12, 16);
+            this.btndownloadtemplate.Name = "btndownloadtemplate";
+            this.btndownloadtemplate.Size = new System.Drawing.Size(124, 23);
+            this.btndownloadtemplate.TabIndex = 5;
+            this.btndownloadtemplate.Text = "Download &Template";
+            this.btndownloadtemplate.UseVisualStyleBackColor = true;
+            this.btndownloadtemplate.Click += new System.EventHandler(this.btndownloadtemplate_Click);
             // 
             // btnuploadexcel
             // 
@@ -172,17 +184,6 @@
             // 
             this.openFileDialog.FileName = "filename";
             // 
-            // btndownloadtemplate
-            // 
-            this.btndownloadtemplate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndownloadtemplate.Location = new System.Drawing.Point(12, 16);
-            this.btndownloadtemplate.Name = "btndownloadtemplate";
-            this.btndownloadtemplate.Size = new System.Drawing.Size(124, 23);
-            this.btndownloadtemplate.TabIndex = 5;
-            this.btndownloadtemplate.Text = "Download &Template";
-            this.btndownloadtemplate.UseVisualStyleBackColor = true;
-            this.btndownloadtemplate.Click += new System.EventHandler(this.btndownloadtemplate_Click);
-            // 
             // campuses_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,6 +192,7 @@
             this.ClientSize = new System.Drawing.Size(528, 561);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "campuses_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Campuses";

@@ -589,17 +589,23 @@ namespace jkuat_ip_telephony_ui
 
         private void toolStripButton_campuses_Click(object sender, EventArgs e)
         {
+            toolStripButton_campuses.Enabled = false;
             campusesToolStripMenuItem_Click(sender, e);
+            toolStripButton_campuses.Enabled = true;
         }
 
         private void toolStripButton_departments_Click(object sender, EventArgs e)
         {
+            toolStripButton_departments.Enabled = false;
             departmentsToolStripMenuItem_Click(sender, e);
+            toolStripButton_departments.Enabled = true;
         }
 
         private void toolStripButton_extensions_Click(object sender, EventArgs e)
         {
+            toolStripButton_extensions.Enabled = false;
             extensionsToolStripMenuItem_Click(sender, e);
+            toolStripButton_extensions.Enabled = true;
         }
 
         private void toolStripButton_exit_Click(object sender, EventArgs e)

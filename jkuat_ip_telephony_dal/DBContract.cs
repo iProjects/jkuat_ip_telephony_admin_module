@@ -62,7 +62,7 @@ namespace jkuat_ip_telephony_dal
             public static String CAMPUS_NAME = "campus_name";
             public static String STATUS = "status";
             public static String CREATED_DATE = "created_date";
-
+            public static String ADDED_BY = "addedby";
         }
 
         public static class department_entity_table
@@ -74,6 +74,7 @@ namespace jkuat_ip_telephony_dal
             public static String CAMPUS_ID = "campus_id";
             public static String STATUS = "status";
             public static String CREATED_DATE = "created_date";
+            public static String ADDED_BY = "addedby";
 
         }
 
@@ -88,7 +89,7 @@ namespace jkuat_ip_telephony_dal
             public static String EXTENSION_NUMBER = "extension_number";
             public static String STATUS = "status";
             public static String CREATED_DATE = "created_date";
-
+            public static String ADDED_BY = "addedby";
         }
 
         public static class user_entity_table
@@ -102,7 +103,7 @@ namespace jkuat_ip_telephony_dal
             public static String SECRETWORD = "secretword";
             public static String STATUS = "status";
             public static String CREATED_DATE = "created_date";
-
+            public static String ADDED_BY = "addedby";
         }
  
 

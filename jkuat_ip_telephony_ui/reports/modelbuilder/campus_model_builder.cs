@@ -62,10 +62,15 @@ namespace jkuat_ip_telephony_ui
 
                 List<campus_dto> campuses_dto = mysqlapisingleton.getInstance(_notificationmessageEventname).lst_get_all_campuses();
 
+                int counter = 0;
+
                 foreach (campus_dto _dto in campuses_dto)
                 {
+                    counter++;
+
                     print_campuses _campus = new print_campuses();
-                    _campus.id = _dto.id;
+                    //_campus.id = _dto.id;
+                    _campus.id = counter.ToString();
                     _campus.campus_name = _dto.campus_name;
                     _campus.status = _dto.status;
                     _campus.created_date = _dto.created_date;

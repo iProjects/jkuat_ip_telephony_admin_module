@@ -1,346 +1,26 @@
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:23:51 AM
+ERROR OCCOURED AT :24/07/2023 08:59:45 AM
 SOURCE:
 MESSAGE:finished login_form initialization
 Whole Exception:System.Exception: finished login_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:23:53 AM
+ERROR OCCOURED AT :24/07/2023 08:59:45 AM
 SOURCE:
 MESSAGE:finished login_form load
 Whole Exception:System.Exception: finished login_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:24:09 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:24:14 AM
-SOURCE:
-MESSAGE:MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-Whole Exception:System.Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:24:20 AM
-SOURCE:MySql.Data
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:24:26 AM
-SOURCE:
-MESSAGE:MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-Whole Exception:System.Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:24:29 AM
-SOURCE:MySql.Data
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:26:17 AM
-SOURCE:
-MESSAGE:finished login_form initialization
-Whole Exception:System.Exception: finished login_form initialization
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:26:17 AM
-SOURCE:
-MESSAGE:finished login_form load
-Whole Exception:System.Exception: finished login_form load
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:26:17 AM
-SOURCE:System.Windows.Forms
-MESSAGE:Thread was being aborted.
-Whole Exception:System.Threading.ThreadAbortException: Thread was being aborted.
-   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
-   at System.Windows.Forms.Control.DefWndProc(Message& m)
-   at System.Windows.Forms.Control.WndProc(Message& m)
-   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
-   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
-   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:26:44 AM
-SOURCE:
-MESSAGE:finished login_form initialization
-Whole Exception:System.Exception: finished login_form initialization
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:26:44 AM
-SOURCE:System.Windows.Forms
-MESSAGE:Thread was being aborted.
-Whole Exception:System.Threading.ThreadAbortException: Thread was being aborted.
-   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
-   at System.Windows.Forms.Control.DefWndProc(Message& m)
-   at System.Windows.Forms.Control.WndProc(Message& m)
-   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
-   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
-   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:27:23 AM
-SOURCE:
-MESSAGE:finished login_form initialization
-Whole Exception:System.Exception: finished login_form initialization
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:27:23 AM
-SOURCE:
-MESSAGE:finished login_form load
-Whole Exception:System.Exception: finished login_form load
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:27:52 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:27:57 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:28:03 AM
-SOURCE:MySql.Data
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
-   at MySql.Data.MySqlClient.NativeDriver.Open()
-   at MySql.Data.MySqlClient.Driver.Open()
-   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
-   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
-   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
-   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at jkuat_ip_telephony_dal.mysqlapisingleton.login(String email, String password) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_dal\mysqlapisingleton.cs:line 807
-   at jkuat_ip_telephony_ui.login_form.loginToolStripMenuItem_Click(Object sender, EventArgs e) in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 197
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:02 AM
-SOURCE:
-MESSAGE:finished login_form initialization
-Whole Exception:System.Exception: finished login_form initialization
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:02 AM
-SOURCE:
-MESSAGE:finished login_form load
-Whole Exception:System.Exception: finished login_form load
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:11 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:16 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:19 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:23 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:24 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:44 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:45 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:48 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:49 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:52 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:53 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:56 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:56 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:59 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:30:59 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:02 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:03 AM
-SOURCE:
-MESSAGE:Unable to connect to any of the specified MySQL hosts.
-Whole Exception:System.Exception: Unable to connect to any of the specified MySQL hosts.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:07 AM
+ERROR OCCOURED AT :24/07/2023 08:59:58 AM
 SOURCE:
 MESSAGE:Login successfull.
 Whole Exception:System.Exception: Login successfull.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:08 AM
+ERROR OCCOURED AT :24/07/2023 08:59:58 AM
 SOURCE:System.Data
 MESSAGE:There is no row at position 1.
 Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
@@ -350,56 +30,77 @@ Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:08 AM
+ERROR OCCOURED AT :24/07/2023 08:59:58 AM
 SOURCE:
 MESSAGE:finished main_form initialization
 Whole Exception:System.Exception: finished main_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:08 AM
+ERROR OCCOURED AT :24/07/2023 08:59:59 AM
 SOURCE:
 MESSAGE:finished main_form load
 Whole Exception:System.Exception: finished main_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:08 AM
+ERROR OCCOURED AT :24/07/2023 08:59:59 AM
 SOURCE:
 MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
 Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:31:10 AM
+ERROR OCCOURED AT :24/07/2023 08:59:59 AM
 SOURCE:
-MESSAGE:loading [http://localhost:90/jkuat_ip_telephony]
-Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony]
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:20 AM
+ERROR OCCOURED AT :24/07/2023 09:00:11 AM
+SOURCE:
+MESSAGE:finished campuses_form initialization
+Whole Exception:System.Exception: finished campuses_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 09:00:11 AM
+SOURCE:
+MESSAGE:fetched [ 21 ] campuses.
+Whole Exception:System.Exception: fetched [ 21 ] campuses.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 09:00:11 AM
+SOURCE:
+MESSAGE:finished campuses_form load
+Whole Exception:System.Exception: finished campuses_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 09:23:22 AM
 SOURCE:
 MESSAGE:finished login_form initialization
 Whole Exception:System.Exception: finished login_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:20 AM
+ERROR OCCOURED AT :24/07/2023 09:23:22 AM
 SOURCE:
 MESSAGE:finished login_form load
 Whole Exception:System.Exception: finished login_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:24 AM
+ERROR OCCOURED AT :24/07/2023 09:23:25 AM
 SOURCE:
 MESSAGE:Login successfull.
 Whole Exception:System.Exception: Login successfull.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:24 AM
+ERROR OCCOURED AT :24/07/2023 09:23:25 AM
 SOURCE:System.Data
 MESSAGE:There is no row at position 1.
 Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
@@ -409,1929 +110,138 @@ Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:24 AM
+ERROR OCCOURED AT :24/07/2023 09:23:25 AM
 SOURCE:
 MESSAGE:finished main_form initialization
 Whole Exception:System.Exception: finished main_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:24 AM
+ERROR OCCOURED AT :24/07/2023 09:23:26 AM
 SOURCE:
 MESSAGE:finished main_form load
 Whole Exception:System.Exception: finished main_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:25 AM
+ERROR OCCOURED AT :24/07/2023 09:23:26 AM
 SOURCE:
 MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
 Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:25 AM
+ERROR OCCOURED AT :24/07/2023 09:23:26 AM
 SOURCE:
-MESSAGE:loading [http://localhost:90/jkuat_ip_telephony]
-Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony]
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:54 AM
+ERROR OCCOURED AT :24/07/2023 09:23:28 AM
 SOURCE:
-MESSAGE:finished departments_form initialization
-Whole Exception:System.Exception: finished departments_form initialization
+MESSAGE:finished extensions_form initialization
+Whole Exception:System.Exception: finished extensions_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:54 AM
+ERROR OCCOURED AT :24/07/2023 09:23:28 AM
 SOURCE:
-MESSAGE:fetched [ 266 ] departments.
-Whole Exception:System.Exception: fetched [ 266 ] departments.
+MESSAGE:fetched [ 1301 ] extensions.
+Whole Exception:System.Exception: fetched [ 1301 ] extensions.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:33:54 AM
+ERROR OCCOURED AT :24/07/2023 09:23:28 AM
 SOURCE:
-MESSAGE:finished departments_form load
-Whole Exception:System.Exception: finished departments_form load
+MESSAGE:finished extensions_form load
+Whole Exception:System.Exception: finished extensions_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
+ERROR OCCOURED AT :24/07/2023 09:33:20 AM
 SOURCE:
-MESSAGE:department [ Swicthboard ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Swicthboard ] for campus [ Main Campus ] exists.
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
+ERROR OCCOURED AT :24/07/2023 09:33:20 AM
 SOURCE:
-MESSAGE:department [ Chancellor ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Chancellor ] for campus [ Main Campus ] exists.
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
+ERROR OCCOURED AT :24/07/2023 09:33:23 AM
 SOURCE:
-MESSAGE:department [ VC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ VC ] for campus [ Main Campus ] exists.
+MESSAGE:Login successfull.
+Whole Exception:System.Exception: Login successfull.
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Council ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Council ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Asst CCO ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Asst CCO ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Industrial Park ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Industrial Park ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Ombudsman ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Ombudsman ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Security ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Security ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ DIPCA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DIPCA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Corporate ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Corporate ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ Adhere ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Adhere ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ PR ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ PR ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:22 AM
-SOURCE:
-MESSAGE:department [ AUDIT ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ AUDIT ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ DLEMA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DLEMA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ CUST ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ CUST ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ University Project ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ University Project ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ UIL ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ UIL ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ ICT ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ ICT ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ DVC APD ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DVC APD ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Legal ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Legal ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Registrar APD ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Registrar APD ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Transport ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Transport ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Human Resourses ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Human Resourses ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Planning ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Planning ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ Central Services ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Central Services ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:23 AM
-SOURCE:
-MESSAGE:department [ catering ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ catering ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Estates ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Estates ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Finance ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Finance ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ SODEL ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SODEL ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Hospital ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Hospital ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Procurement ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Procurement ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Stores ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Stores ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ Tailoring ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Tailoring ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:24 AM
-SOURCE:
-MESSAGE:department [ DVC AA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DVC AA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Registrar AA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Registrar AA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Programmes ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Programmes ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ DAQA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DAQA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ BPS ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ BPS ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Gender ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Gender ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Welfare ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Welfare ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Mail Registry ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Mail Registry ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Dean ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Dean ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:25 AM
-SOURCE:
-MESSAGE:department [ Chaplain ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Chaplain ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:26 AM
-SOURCE:
-MESSAGE:department [ Sports ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Sports ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:26 AM
-SOURCE:
-MESSAGE:department [ Library ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Library ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:26 AM
-SOURCE:
-MESSAGE:department [ COHRED ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ COHRED ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:26 AM
-SOURCE:
-MESSAGE:department [ Development Study ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Development Study ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:26 AM
-SOURCE:
-MESSAGE:department [ MTAC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ MTAC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Business ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Business ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ CLB Lab ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ CLB Lab ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Economics ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Economics ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ SEPM ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SEPM ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Lead ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Lead ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Prof ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Prof ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Agriculture ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Agriculture ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Food science ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Food science ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Land Resources ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Land Resources ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ DR ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DR ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ Horticulture ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Horticulture ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:27 AM
-SOURCE:
-MESSAGE:department [ COETEC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ COETEC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:28 AM
-SOURCE:
-MESSAGE:department [ Workshop ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Workshop ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:28 AM
-SOURCE:
-MESSAGE:department [ SEEIE ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SEEIE ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:28 AM
-SOURCE:
-MESSAGE:department [ Electrical ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Electrical ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:28 AM
-SOURCE:
-MESSAGE:department [ TIE ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ TIE ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ SCEGE ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SCEGE ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ GEGIS ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ GEGIS ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ SOMME ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SOMME ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ Mechanical ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Mechanical ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ Mechatronic ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Mechatronic ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ BEED ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ BEED ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ WARREC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ WARREC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ SABS ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SABS ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:29 AM
-SOURCE:
-MESSAGE:department [ Constrution Management ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Constrution Management ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ COPAS ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ COPAS ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Biological ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Biological ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Botany ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Botany ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Zoology ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Zoology ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Chemistry ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Chemistry ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Physics ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Physics ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Mathematics ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Mathematics ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Statistics ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Statistics ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:30 AM
-SOURCE:
-MESSAGE:department [ Computing ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Computing ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ IT ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ IT ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ COHES ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ COHES ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Biochemistry ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Biochemistry ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ RPE ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ RPE ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ MLS ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ MLS ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Haematology ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Haematology ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Nursing ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Nursing ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Pharmacy ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Pharmacy ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Microbiology ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Microbiology ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Public Health ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Public Health ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Medicine ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Medicine ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ JICA ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ JICA ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Production ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Production ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Research ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Research ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Extension ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Extension ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Linkages ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Linkages ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ FOTEC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ FOTEC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ CPC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ CPC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ UCCD ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ UCCD ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ IBR ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ IBR ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Lab ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Lab ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ Organic Farming ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Organic Farming ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ IEET ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ IEET ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ SAJOREC ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ SAJOREC ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:31 AM
-SOURCE:
-MESSAGE:department [ JAST ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ JAST ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Farm ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Farm ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Halls ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Halls ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Bookshop ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Bookshop ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Avaya Support ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Avaya Support ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Boardroom ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Boardroom ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ JKUATES ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ JKUATES ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Dep Director ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Dep Director ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ CES ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ CES ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ EPD ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ EPD ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Acoounts ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Acoounts ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Admin ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Admin ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Lab ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Lab ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ library ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ library ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Caretaker ] for campus [ Nairobi CBD ] exists.
-Whole Exception:System.Exception: department [ Caretaker ] for campus [ Nairobi CBD ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Principal westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Principal westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Director westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Director westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Finance Westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Finance Westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ HOD westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ HOD westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:32 AM
-SOURCE:
-MESSAGE:department [ Registrar Westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Registrar Westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Customer Care Westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Customer Care Westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Dean westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Dean westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ hospital westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ hospital westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Procurement westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Procurement westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ server room westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ server room westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Technical weslands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Technical weslands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ cafeteria westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ cafeteria westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Exams Westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Exams Westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ academic westlands ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ academic westlands ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ ICT ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ ICT ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ library ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ library ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ security ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ security ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ HRD ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ HRD ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Estates ] for campus [ Westlands ] exists.
-Whole Exception:System.Exception: department [ Estates ] for campus [ Westlands ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ ICT ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ ICT ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ academic ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ academic ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Principal ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Principal ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Registrar ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Registrar ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ central services ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ central services ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ security ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ security ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ cafeteria ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ cafeteria ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:33 AM
-SOURCE:
-MESSAGE:department [ Bookshop ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Bookshop ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ finance ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ finance ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ library ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ library ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Law ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Law ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Lecturer ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Lecturer ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Hospital ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Hospital ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ IT ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ IT ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Condinators ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Condinators ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ BSS ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ BSS ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ sports ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ sports ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Applied science ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Applied science ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Estates ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Estates ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Chaplains ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Chaplains ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Dean ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Dean ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Student councils ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Student councils ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Karen Lab ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Karen Lab ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Biochem lab ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Biochem lab ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Conference ] for campus [ Karen ] exists.
-Whole Exception:System.Exception: department [ Conference ] for campus [ Karen ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Avaya support ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Avaya support ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Dep Director ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Dep Director ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:34 AM
-SOURCE:
-MESSAGE:department [ Sec Director ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Sec Director ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Board room ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Board room ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Reception ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Reception ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ lab ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ lab ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Bookshop ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Bookshop ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Admin ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Admin ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Accounts ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Accounts ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Security ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Security ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ library ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ library ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ sports ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ sports ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Condinators ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ Condinators ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ server room Nakuru ] for campus [ Nakuru ] exists.
-Whole Exception:System.Exception: department [ server room Nakuru ] for campus [ Nakuru ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:35 AM
-SOURCE:
-MESSAGE:department [ Dep-Director ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Dep-Director ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Procurement ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Procurement ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Administration ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Administration ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Finance ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Finance ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ COD ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ COD ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Lab ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Lab ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Library ] for campus [ Mombasa ] exists.
-Whole Exception:System.Exception: department [ Library ] for campus [ Mombasa ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Avaya support ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Avaya support ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Dep Director ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Dep Director ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Sec Director ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Sec Director ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ COD IT ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ COD IT ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ COD HRD ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ COD HRD ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ COD Health Sci ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ COD Health Sci ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Admin ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Admin ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Accounts ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Accounts ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:36 AM
-SOURCE:
-MESSAGE:department [ Server room ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Server room ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:37 AM
-SOURCE:
-MESSAGE:department [ Board room ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Board room ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:37 AM
-SOURCE:
-MESSAGE:department [ library ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ library ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:37 AM
-SOURCE:
-MESSAGE:department [ secretary ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ secretary ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:38 AM
-SOURCE:
-MESSAGE:department [ JKUSO ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ JKUSO ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:38 AM
-SOURCE:
-MESSAGE:department [ Cleaner ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Cleaner ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:38 AM
-SOURCE:
-MESSAGE:department [ Director Kisii ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Director Kisii ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:38 AM
-SOURCE:
-MESSAGE:department [ COD IT and Maths ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ COD IT and Maths ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ COD Social sci ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ COD Social sci ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Sec ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Sec ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Lab ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Lab ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ security ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ security ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Estates ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Estates ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Kitchen ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Kitchen ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:39 AM
-SOURCE:
-MESSAGE:department [ Stores ] for campus [ Kisii ] exists.
-Whole Exception:System.Exception: department [ Stores ] for campus [ Kisii ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:40 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:40 AM
-SOURCE:
-MESSAGE:department [ Dep-Director ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Dep-Director ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:40 AM
-SOURCE:
-MESSAGE:department [ Secretary ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Secretary ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Administrator ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Administrator ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Finance ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Finance ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Procurement ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Procurement ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Lab ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Lab ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:41 AM
-SOURCE:
-MESSAGE:department [ Library ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Library ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Administration ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Administration ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Security ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Security ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Server room ] for campus [ Kitale ] exists.
-Whole Exception:System.Exception: department [ Server room ] for campus [ Kitale ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Reception ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Reception ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Director ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Director ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Dep-Director ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Dep-Director ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Secretary ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Secretary ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:42 AM
-SOURCE:
-MESSAGE:department [ Administrator ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Administrator ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:43 AM
-SOURCE:
-MESSAGE:department [ Finance ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Finance ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:43 AM
-SOURCE:
-MESSAGE:department [ Clerk ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Clerk ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:43 AM
-SOURCE:
-MESSAGE:department [ Library ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Library ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:43 AM
-SOURCE:
-MESSAGE:department [ Estates ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Estates ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:44 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:44 AM
-SOURCE:
-MESSAGE:department [ Registry ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Registry ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:44 AM
-SOURCE:
-MESSAGE:department [ Security ] for campus [ Kakamega ] exists.
-Whole Exception:System.Exception: department [ Security ] for campus [ Kakamega ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:44 AM
-SOURCE:
-MESSAGE:department [ Planning and Budget ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Planning and Budget ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:45 AM
-SOURCE:
-MESSAGE:department [ Dep Registrar Exams ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Dep Registrar Exams ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:45 AM
-SOURCE:
-MESSAGE:department [ Exams ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Exams ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:45 AM
-SOURCE:
-MESSAGE:department [ Dep Registrar Senate ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Dep Registrar Senate ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:45 AM
-SOURCE:
-MESSAGE:department [ Senate ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Senate ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:45 AM
-SOURCE:
-MESSAGE:department [ Printery ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Printery ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:46 AM
-SOURCE:
-MESSAGE:department [ Civil ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Civil ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:46 AM
-SOURCE:
-MESSAGE:department [ Academic ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Academic ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:46 AM
-SOURCE:
-MESSAGE:department [ Aliso ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Aliso ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:46 AM
-SOURCE:
-MESSAGE:department [ DVC Finance ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ DVC Finance ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:46 AM
-SOURCE:
-MESSAGE:department [ Project ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Project ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:47 AM
-SOURCE:
-MESSAGE:department [ ICEOD ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ ICEOD ] for campus [ Main Campus ] exists.
-==================================================================
-
-==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:47 AM
-SOURCE:
-MESSAGE:department [ Mining ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Mining ] for campus [ Main Campus ] exists.
+ERROR OCCOURED AT :24/07/2023 09:33:23 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 374
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:47 AM
+ERROR OCCOURED AT :24/07/2023 09:33:23 AM
 SOURCE:
-MESSAGE:department [ Studiz ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Studiz ] for campus [ Main Campus ] exists.
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:48 AM
+ERROR OCCOURED AT :24/07/2023 09:33:24 AM
 SOURCE:
-MESSAGE:department [ Gate ] for campus [ Main Campus ] exists.
-Whole Exception:System.Exception: department [ Gate ] for campus [ Main Campus ] exists.
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:49 AM
+ERROR OCCOURED AT :24/07/2023 09:33:24 AM
 SOURCE:
-MESSAGE:department [ Landi Mawe ] for campus [ Lamu ] exists.
-Whole Exception:System.Exception: department [ Landi Mawe ] for campus [ Lamu ] exists.
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:49 AM
+ERROR OCCOURED AT :24/07/2023 09:33:24 AM
 SOURCE:
-MESSAGE:department [ Chuom ] for campus [ Shimo La Tewa ] exists.
-Whole Exception:System.Exception: department [ Chuom ] for campus [ Shimo La Tewa ] exists.
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:50 AM
+ERROR OCCOURED AT :24/07/2023 09:33:29 AM
 SOURCE:
-MESSAGE:department [ Kwa Mbao ] for campus [ Ruiru ] exists.
-Whole Exception:System.Exception: department [ Kwa Mbao ] for campus [ Ruiru ] exists.
+MESSAGE:finished crystal_reports_form initialization
+Whole Exception:System.Exception: finished crystal_reports_form initialization
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:50 AM
+ERROR OCCOURED AT :24/07/2023 09:33:29 AM
 SOURCE:
-MESSAGE:department [ Kfc ] for campus [ Kahawa Sukari ] exists.
-Whole Exception:System.Exception: department [ Kfc ] for campus [ Kahawa Sukari ] exists.
+MESSAGE:finished crystal_reports_form load
+Whole Exception:System.Exception: finished crystal_reports_form load
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:50 AM
+ERROR OCCOURED AT :24/07/2023 09:33:31 AM
 SOURCE:
-MESSAGE:fetched [ 266 ] departments.
-Whole Exception:System.Exception: fetched [ 266 ] departments.
+MESSAGE:generating campuses crystal report...
+Whole Exception:System.Exception: generating campuses crystal report...
 ==================================================================
 
 ==================================================================
-ERROR OCCOURED AT :19/07/2023 08:34:51 AM
+ERROR OCCOURED AT :24/07/2023 09:33:50 AM
 SOURCE:
-MESSAGE:no records created.
-
-Whole Exception:System.Exception: no records created.
-
+MESSAGE:generating departments crystal report...
+Whole Exception:System.Exception: generating departments crystal report...
 ==================================================================
 
