@@ -12,6 +12,9 @@ using jkuat_ip_telephony_dal;
 using System.IO;
 using System.Xml.Linq;
 using System.Xml;
+using System.Net;
+using System.Security.Policy;
+using System.Collections.Specialized;
 
 namespace jkuat_ip_telephony_ui
 {
@@ -194,25 +197,38 @@ namespace jkuat_ip_telephony_ui
 
                 responsedto response_dto = new responsedto();
 
-                response_dto = mysqlapisingleton.getInstance(_notificationmessageEventname).login(email, password);
+                //create_password_hash_from_api(email, password);
+                response_dto = login_from_api(email, password);
+
+                //response_dto = mysqlapisingleton.getInstance(_notificationmessageEventname).login(email, password);
 
                 if (response_dto.isresponseresultsuccessful)
                 {
-                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response_dto.responsesuccessmessage, TAG));
-
-                    if (chkremember.Checked)
+                    if (response_dto.responsesuccessmessage == "success")
                     {
-                        SaveAutoCompleteUsers();
-                        save_auto_complete_login();
+                        _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response_dto.responsesuccessmessage, TAG));
+
+                        if (chkremember.Checked)
+                        {
+                            SaveAutoCompleteUsers();
+                            save_auto_complete_login();
+                        }
+                        else
+                        {
+                            delete_auto_complete_login();
+                        }
+
+                        main_form _main_form = new main_form(email) { Owner = this };
+                        _main_form.Show();
+                        this.Hide();
+
                     }
                     else
                     {
-                        delete_auto_complete_login();
+                        _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response_dto.responseerrormessage, TAG));
                     }
 
-                    main_form _main_form = new main_form(email) { Owner = this };
-                    _main_form.Show();
-                    this.Hide();
+                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(response_dto.responsesuccessmessage, TAG));
 
                 }
                 else
@@ -302,7 +318,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
-                Utils.LogEventViewer(ex);
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
                 return false;
             }
         }
@@ -331,7 +347,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
-                Utils.ShowError(ex);
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
                 return null;
             }
         }
@@ -423,6 +439,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
             }
         }
@@ -489,6 +506,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
             }
         }
@@ -580,7 +598,82 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
+            }
+        }
+
+        private void create_password_hash_from_api(string email, string password)
+        {
+            try
+            {
+                string api_url = System.Configuration.ConfigurationManager.AppSettings["ENCRYPTION_API_URL"];
+
+                using (var client = new WebClient())
+                {
+                    var values = new NameValueCollection();
+                    values["email"] = email;
+                    values["pass_word"] = password;
+                    values["action"] = "create_hash";
+
+                    var iresponse = client.UploadValues(api_url, values);
+
+                    var responseString = Encoding.Default.GetString(iresponse);
+
+                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(responseString, TAG));
+
+                    Console.WriteLine(responseString);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
+                Log.WriteToErrorLogFile_and_EventViewer(ex);
+            }
+        }
+
+        private responsedto login_from_api(string email, string password)
+        {
+            responsedto response_dto = new responsedto();
+
+            try
+            {
+                string api_url = System.Configuration.ConfigurationManager.AppSettings["ENCRYPTION_API_URL"];
+
+                using (var client = new WebClient())
+                {
+                    var values = new NameValueCollection();
+                    values["email"] = email;
+                    values["pass_word"] = password;
+                    values["action"] = "verify_password";
+
+                    var iresponse = client.UploadValues(api_url, values);
+
+                    string responseString = Encoding.Default.GetString(iresponse);
+
+                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(responseString, TAG));
+
+                    Console.WriteLine(responseString);
+
+                    response_dto.responsesuccessmessage = responseString.Trim();
+                    response_dto.isresponseresultsuccessful = true;
+
+                    return response_dto;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.Message.ToString(), TAG));
+                Log.WriteToErrorLogFile_and_EventViewer(ex);
+
+                response_dto.responseerrormessage = ex.Message;
+                response_dto.isresponseresultsuccessful = false;
+
+                return response_dto;
             }
         }
 

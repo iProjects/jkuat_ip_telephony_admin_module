@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Systems>
-  <System system="online_ip_telephony" serverName="mysql" databaseName="ip_telephony_db" userName="" password="7oR7Y+9y+oTEPjBB1O+x3Q==" IntegratedSecurity="False" remember="False" />
-  <System system="online_ip_telephony" serverName="mysql" databaseName="ip_telephony_db" userName="fanikiwa254@gmail.com" password="Tq71lSmhO9BQz8Rzj925bA==" IntegratedSecurity="False" remember="True" />
+  <System system="online_ip_telephony" serverName="mysql" databaseName="ip_telephony_db" userName="juja@gmail.com" password="PGOwbszFz9shHE3YE6CSSg==" IntegratedSecurity="False" remember="True" />
+  <System system="online_ip_telephony" serverName="mysql" databaseName="ip_telephony_db" userName="admin@gmail.com" password="0jJIv0KaQqVC9KGaOL/DYA==" IntegratedSecurity="False" remember="True" />
 </Systems>

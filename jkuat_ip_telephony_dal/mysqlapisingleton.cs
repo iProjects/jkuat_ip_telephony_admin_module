@@ -806,7 +806,7 @@ namespace jkuat_ip_telephony_dal
             user_dto user = null;
 
             string query = "SELECT * FROM " + DBContract.user_entity_table.TABLE_NAME +
-                " WHERE email = @email AND password = @password";
+                " WHERE email = @email AND pass_word = @pass_word";
 
             using (var con = new MySqlConnection(CONNECTION_STRING))
             {
@@ -816,7 +816,7 @@ namespace jkuat_ip_telephony_dal
                 {
                     //here we are setting the parameter values that will be actually replaced in the query in Execute method                  
                     cmd.Parameters.AddWithValue("@email", email);
-                    cmd.Parameters.AddWithValue("@password", password);
+                    cmd.Parameters.AddWithValue("@pass_word", password);
 
                     MySqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
@@ -825,8 +825,8 @@ namespace jkuat_ip_telephony_dal
                         user.id = reader.GetInt32(0).ToString();
                         user.email = reader.GetString(1);
                         user.full_names = reader.GetString(2);
-                        user.password = reader.GetString(3);
-                        user.secretword = reader.GetString(4);
+                        user.pass_word = reader.GetString(3);
+                        user.secret_word = reader.GetString(4);
                         user.status = reader.GetString(5);
                         user.created_date = reader.GetString(6);
                     }

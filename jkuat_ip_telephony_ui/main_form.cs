@@ -458,7 +458,7 @@ UnhandledExceptionEventHandler(UnhandledException);
                 try
                 {
                     string registryPath = "SOFTWARE\\" + Application.CompanyName + "\\" + Application.ProductName + "\\" + Application.ProductVersion;
-                    RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath);
+                    RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath, RegistryKeyPermissionCheck.ReadWriteSubTree);
 
                     DateTime currentDate = DateTime.Now;
                     String dateTimenow = currentDate.ToString("dd-MM-yyyy HH:mm:ss tt");
@@ -1027,7 +1027,7 @@ UnhandledExceptionEventHandler(UnhandledException);
             try
             {
                 string registryPath = "SOFTWARE\\" + Application.CompanyName + "\\" + Application.ProductName + "\\" + Application.ProductVersion;
-                RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath);
+                RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath, RegistryKeyPermissionCheck.ReadWriteSubTree);
                 MyReg.SetValue("Company Name", Application.CompanyName);
                 MyReg.SetValue("Application Name", Application.ProductName);
                 MyReg.SetValue("Version", Application.ProductVersion);
@@ -1076,7 +1076,7 @@ UnhandledExceptionEventHandler(UnhandledException);
 
                 if (keyvaluedata.Length == 0)
                 {
-                    RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath);
+                    RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath, RegistryKeyPermissionCheck.ReadWriteSubTree);
 
                     MyReg.SetValue("First Usage Time", dateTimenow);
 
@@ -1162,7 +1162,7 @@ UnhandledExceptionEventHandler(UnhandledException);
                 this.DeleteCurrentUserRegistery();
 
                 string registryPath = "SOFTWARE\\" + Application.CompanyName + "\\" + Application.ProductName + "\\" + Application.ProductVersion;
-                RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath);
+                RegistryKey MyReg = Registry.CurrentUser.CreateSubKey(registryPath, RegistryKeyPermissionCheck.ReadWriteSubTree);
                 MyReg.SetValue("Last Usage Time", _totalLoggedinTime);
                 MyReg.SetValue("Total Usage Time", _tts);
                 MyReg.Close();

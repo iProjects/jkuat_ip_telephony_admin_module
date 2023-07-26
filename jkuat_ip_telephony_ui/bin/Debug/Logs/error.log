@@ -245,3 +245,2388 @@ MESSAGE:generating departments crystal report...
 Whole Exception:System.Exception: generating departments crystal report...
 ==================================================================
 
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:05 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:06 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:11 PM
+SOURCE:
+MESSAGE:Login successfull.
+Whole Exception:System.Exception: Login successfull.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:11 PM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 374
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:11 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:11 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:13 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 13:58:13 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:33:51 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:33:51 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:33:56 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:34:02 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:34:06 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:34:08 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:34:14 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :24/07/2023 22:34:16 PM
+SOURCE:
+MESSAGE:Unknown column 'password' in 'where clause'
+Whole Exception:System.Exception: Unknown column 'password' in 'where clause'
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:12 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:12 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:15 AM
+SOURCE:
+MESSAGE:Login successfull.
+Whole Exception:System.Exception: Login successfull.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:15 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 374
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:15 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:15 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:15 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:16 AM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:21 AM
+SOURCE:
+MESSAGE:finished departments_form initialization
+Whole Exception:System.Exception: finished departments_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:21 AM
+SOURCE:
+MESSAGE:fetched [ 269 ] departments.
+Whole Exception:System.Exception: fetched [ 269 ] departments.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:23:21 AM
+SOURCE:
+MESSAGE:finished departments_form load
+Whole Exception:System.Exception: finished departments_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:28:45 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:28:45 AM
+SOURCE:System.Windows.Forms
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:28:45 AM
+SOURCE:
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Exception: Thread was being aborted.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:28:45 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:35:57 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:35:57 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:
+MESSAGE:Login successfull.
+Whole Exception:System.Exception: Login successfull.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 374
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 00:36:01 AM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:16:00 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:16:00 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:18:56 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:18:56 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:19:49 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:19:49 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:28:39 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:28:40 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:28:48 PM
+SOURCE:
+MESSAGE:Hashed password using CRYPT_BLOWFISH: $2y$10$fQ9ohTtqxJWZQzDLlUCvwOLmzdWCmOxXMiQK0p2ZBZ/R4tBDI3b7K
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>46</b><br />
+<br />
+<b>Warning</b>:  password_hash() expects parameter 2 to be integer, string given in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>46</b><br />
+
+Hashed password using bcrypt: $2y$10$amfxheRYXbCWAelieNEUZ.IcBQ4acYq6IJZfBliCgniWHMdzAnJiisuccess
+Whole Exception:System.Exception: Hashed password using CRYPT_BLOWFISH: $2y$10$fQ9ohTtqxJWZQzDLlUCvwOLmzdWCmOxXMiQK0p2ZBZ/R4tBDI3b7K
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>46</b><br />
+<br />
+<b>Warning</b>:  password_hash() expects parameter 2 to be integer, string given in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>46</b><br />
+
+Hashed password using bcrypt: $2y$10$amfxheRYXbCWAelieNEUZ.IcBQ4acYq6IJZfBliCgniWHMdzAnJiisuccess
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:28:48 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:43:22 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:43:22 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:49:00 PM
+SOURCE:
+MESSAGE:Hashed password using CRYPT_BLOWFISH: $2y$12$Pfm.ypwfkSAGz2HQRayx9.QDwVGpXFVTeSz1rq3K95NNsT46VSfVC$2y$12$Pfm.ypwfkSAGz2HQRayx9.QDwVGpXFVTeSz1rq3K95NNsT46VSfVC
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash() expects parameter 2 to be integer, string given in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: $2y$12$vdni4Dn/YnJk9GPkPb5hsuAxo4D6Nh2o13oDuwOlkeeRd0LCXbgVi$2y$12$vdni4Dn/YnJk9GPkPb5hsuAxo4D6Nh2o13oDuwOlkeeRd0LCXbgVi
+<br />
+<b>Notice</b>:  Undefined variable: password in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+Whole Exception:System.Exception: Hashed password using CRYPT_BLOWFISH: $2y$12$Pfm.ypwfkSAGz2HQRayx9.QDwVGpXFVTeSz1rq3K95NNsT46VSfVC$2y$12$Pfm.ypwfkSAGz2HQRayx9.QDwVGpXFVTeSz1rq3K95NNsT46VSfVC
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash() expects parameter 2 to be integer, string given in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: $2y$12$vdni4Dn/YnJk9GPkPb5hsuAxo4D6Nh2o13oDuwOlkeeRd0LCXbgVi$2y$12$vdni4Dn/YnJk9GPkPb5hsuAxo4D6Nh2o13oDuwOlkeeRd0LCXbgVi
+<br />
+<b>Notice</b>:  Undefined variable: password in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:49:00 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:49:16 PM
+SOURCE:
+MESSAGE:Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+Whole Exception:System.Exception: Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:49:16 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:52:08 PM
+SOURCE:
+MESSAGE:Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+Whole Exception:System.Exception: Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>52</b><br />
+
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 14:52:08 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:00:57 PM
+SOURCE:
+MESSAGE:Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: $2y$12$9ed0e1.PCKsCnfaq2Wxy6eQEglfWQY5.YEXlwwe2KF4v96ANFxy9G$2y$12$9ed0e1.PCKsCnfaq2Wxy6eQEglfWQY5.YEXlwwe2KF4v96ANFxy9G
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+Whole Exception:System.Exception: Hashed password using CRYPT_BLOWFISH: <br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>44</b><br />
+
+Hashed password using Argon2i: <br />
+<b>Notice</b>:  Use of undefined constant PASSWORD_ARGON2I - assumed 'PASSWORD_ARGON2I' in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant PASSWORD_ARGON2I in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>48</b><br />
+
+Hashed password using bcrypt: $2y$12$9ed0e1.PCKsCnfaq2Wxy6eQEglfWQY5.YEXlwwe2KF4v96ANFxy9G$2y$12$9ed0e1.PCKsCnfaq2Wxy6eQEglfWQY5.YEXlwwe2KF4v96ANFxy9G
+<br />
+<b>Warning</b>:  constant(): Couldn't find constant 1 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+<br />
+<b>Warning</b>:  password_hash(): Unknown password hashing algorithm: 0 in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>55</b><br />
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:00:57 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:02:02 PM
+SOURCE:
+MESSAGE:Hashed password using bcrypt: $2y$12$.gl7z/yUHyrrN3AGYkBWseBeD0EzjQ/ktZC/t8Q0jAmIWI8fNQZYG$2y$12$.gl7z/yUHyrrN3AGYkBWseBeD0EzjQ/ktZC/t8Q0jAmIWI8fNQZYG
+<br />
+<b>Fatal error</b>:  Uncaught Error: Class 'user_dal' not found in C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php:47
+Stack trace:
+#0 C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php(7): create_hash()
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>47</b><br />
+
+Whole Exception:System.Exception: Hashed password using bcrypt: $2y$12$.gl7z/yUHyrrN3AGYkBWseBeD0EzjQ/ktZC/t8Q0jAmIWI8fNQZYG$2y$12$.gl7z/yUHyrrN3AGYkBWseBeD0EzjQ/ktZC/t8Q0jAmIWI8fNQZYG
+<br />
+<b>Fatal error</b>:  Uncaught Error: Class 'user_dal' not found in C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php:47
+Stack trace:
+#0 C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php(7): create_hash()
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>47</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:02:02 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:06:01 PM
+SOURCE:
+MESSAGE:
+Hashed password using bcrypt: $2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG$2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG
+$2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG
+Whole Exception:System.Exception: 
+Hashed password using bcrypt: $2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG$2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG
+$2y$12$cTl9TAmlmhyzusIGMR2vMOeBsIZ3UpePbePJYINnsnMFFJpQaQ9VG
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:06:01 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:17:13 PM
+SOURCE:
+MESSAGE:
+$2y$12$G3PvlHBzl3xdYkXiUrZMpOs8RYpKKtHJ4qlT8msmXnM9XaTaJuNyy
+
+Whole Exception:System.Exception: 
+$2y$12$G3PvlHBzl3xdYkXiUrZMpOs8RYpKKtHJ4qlT8msmXnM9XaTaJuNyy
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:17:13 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:01 PM
+SOURCE:
+MESSAGE:<br />
+<b>Parse error</b>:  syntax error, unexpected '=&gt;' (T_DOUBLE_ARROW) in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>86</b><br />
+
+Whole Exception:System.Exception: <br />
+<b>Parse error</b>:  syntax error, unexpected '=&gt;' (T_DOUBLE_ARROW) in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>86</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:01 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:30 PM
+SOURCE:
+MESSAGE:
+$2y$12$C817KWfLtnX4zTRbDH5v.uIZkToPLiqEYlV1ezvG0RLGhGfBWgfei
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined method user_dal::update_user_password_hash() in C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php:50
+Stack trace:
+#0 C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php(8): create_hash()
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>50</b><br />
+
+Whole Exception:System.Exception: 
+$2y$12$C817KWfLtnX4zTRbDH5v.uIZkToPLiqEYlV1ezvG0RLGhGfBWgfei
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined method user_dal::update_user_password_hash() in C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php:50
+Stack trace:
+#0 C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php(8): create_hash()
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>50</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:30 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:46 PM
+SOURCE:
+MESSAGE:
+$2y$12$ne2BnkxyCXinua.HWRNh8Ozga3k.pE9.EP0Ns4a4Mh32DAIiYEjt.
+
+Whole Exception:System.Exception: 
+$2y$12$ne2BnkxyCXinua.HWRNh8Ozga3k.pE9.EP0Ns4a4Mh32DAIiYEjt.
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:18:46 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:21:38 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:21:38 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:21:40 PM
+SOURCE:
+MESSAGE:
+$2y$12$dzWNNl.xeA51YZRgwsHbs.Ed8WyUgKE5SRXGWXz28TOyY29dm1xLS
+
+Whole Exception:System.Exception: 
+$2y$12$dzWNNl.xeA51YZRgwsHbs.Ed8WyUgKE5SRXGWXz28TOyY29dm1xLS
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:21:45 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:22:45 PM
+SOURCE:
+MESSAGE:
+$2y$12$Ak0UwEtYlZOZ3dEKYF8cyOsblVRLj65enW/5T1WR5FzoVRv9MnOHu<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$Ak0UwEtYlZOZ3dEKYF8cyOsblVRLj65enW/5T1WR5FzoVRv9MnOHu<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:22:52 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:28:04 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:28:04 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:28:06 PM
+SOURCE:
+MESSAGE:
+$2y$12$XooDer0WL71Ohwc/gnGHZu.raQw4ET3RKaxcbro2KqbZ3piVhzyIW<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$XooDer0WL71Ohwc/gnGHZu.raQw4ET3RKaxcbro2KqbZ3piVhzyIW<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:28:06 PM
+SOURCE:
+MESSAGE:
+{"id":2,"email":"fanikiwa254@gmail.com","full_names":"fanikiwa fanikiwa","pass_word":"fanikiwa","secret_word":"fanikiwa","password_hash":"$2y$12$XooDer0WL71Ohwc\/gnGHZu.raQw4ET3RKaxcbro2KqbZ3piVhzyIW","status":"active","created_date":"21-06-2023 08:46:43 AM","addedby":"admin"}<br />
+<b>Notice</b>:  Undefined variable: saved_hash in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>90</b><br />
+
+Whole Exception:System.Exception: 
+{"id":2,"email":"fanikiwa254@gmail.com","full_names":"fanikiwa fanikiwa","pass_word":"fanikiwa","secret_word":"fanikiwa","password_hash":"$2y$12$XooDer0WL71Ohwc\/gnGHZu.raQw4ET3RKaxcbro2KqbZ3piVhzyIW","status":"active","created_date":"21-06-2023 08:46:43 AM","addedby":"admin"}<br />
+<b>Notice</b>:  Undefined variable: saved_hash in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>90</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:28:16 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:32:55 PM
+SOURCE:
+MESSAGE:
+$2y$12$lM/3n59WG./b7Lv1Jm9noeN7dT4UFRrmjFtaGYIgqmgLBnsoAPaHy<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$lM/3n59WG./b7Lv1Jm9noeN7dT4UFRrmjFtaGYIgqmgLBnsoAPaHy<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:32:55 PM
+SOURCE:
+MESSAGE:
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>89</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>91</b><br />
+
+Whole Exception:System.Exception: 
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>89</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>91</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:33:19 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:33:22 PM
+SOURCE:
+MESSAGE:
+$2y$12$BkxGZl9exUej/01Q3/fX7.Yp5IEFMEAzJR9Bx9ynkuL6srSxpL17y<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$BkxGZl9exUej/01Q3/fX7.Yp5IEFMEAzJR9Bx9ynkuL6srSxpL17y<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:33:22 PM
+SOURCE:
+MESSAGE:
+$2y$12$BkxGZl9exUej/01Q3/fX7.Yp5IEFMEAzJR9Bx9ynkuL6srSxpL17y<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>91</b><br />
+
+Whole Exception:System.Exception: 
+$2y$12$BkxGZl9exUej/01Q3/fX7.Yp5IEFMEAzJR9Bx9ynkuL6srSxpL17y<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\jkuat_ip_telephony\password_hash_utility.php</b> on line <b>91</b><br />
+
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:34:23 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:34:26 PM
+SOURCE:
+MESSAGE:
+$2y$12$o7yVCceK4FVdRvnAIoa0feUKIME5Z0ViwOc/5gCBqjWJNZEyK02ge<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$o7yVCceK4FVdRvnAIoa0feUKIME5Z0ViwOc/5gCBqjWJNZEyK02ge<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:34:26 PM
+SOURCE:
+MESSAGE:
+$2y$12$o7yVCceK4FVdRvnAIoa0feUKIME5Z0ViwOc/5gCBqjWJNZEyK02ge
+Whole Exception:System.Exception: 
+$2y$12$o7yVCceK4FVdRvnAIoa0feUKIME5Z0ViwOc/5gCBqjWJNZEyK02ge
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:35:24 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:35:27 PM
+SOURCE:
+MESSAGE:
+$2y$12$D2JzMUg4maixIFeay/S7sepCcOjD2Rj2ggBDAx89O5Mk1WJzfjiGq<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$D2JzMUg4maixIFeay/S7sepCcOjD2Rj2ggBDAx89O5Mk1WJzfjiGq<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:35:27 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:35:50 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:47:42 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:47:42 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:47:55 PM
+SOURCE:
+MESSAGE:
+$2y$12$Z72eNjx2v4kg7EOwDUu1HOw0Y1D8ifEAZIAKLirjJW2VmQr.kY.86<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$Z72eNjx2v4kg7EOwDUu1HOw0Y1D8ifEAZIAKLirjJW2VmQr.kY.86<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:47:55 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:47:55 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:48:39 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:48:39 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:48:40 PM
+SOURCE:
+MESSAGE:
+$2y$12$FDeXwRLQAkGfgNCJZO6z6eeHKdQV8WQBvigKyKkX4H6IjS9UEnGeK<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$FDeXwRLQAkGfgNCJZO6z6eeHKdQV8WQBvigKyKkX4H6IjS9UEnGeK<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:48:41 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:25 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:25 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:27 PM
+SOURCE:
+MESSAGE:
+$2y$12$gUVOKcgT1j6G3uBR30ZLMeaRipwhInInXfctdGJanQOjay6Ufjfaq<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$gUVOKcgT1j6G3uBR30ZLMeaRipwhInInXfctdGJanQOjay6Ufjfaq<div class='alert alert-success'>User with Email [ fanikiwa254@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:28 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:37 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:39 PM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:39 PM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:39 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:39 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:39 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:40 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:49:40 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:13 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:13 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:
+$2y$12$pSM6F3BpZT.Wv3oAXBprHuaVXbg7AYN9.tcegmv6n8zssikE87UuS<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$pSM6F3BpZT.Wv3oAXBprHuaVXbg7AYN9.tcegmv6n8zssikE87UuS<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome test@test.com
+Whole Exception:System.Exception: Log in Successfull, Welcome test@test.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:52:43 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:50 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:50 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:
+$2y$12$buPCRNFy8onVPX21xhMm1.PzcHbbNMTx9zuMcJNcdK5MtEVvI687G<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$buPCRNFy8onVPX21xhMm1.PzcHbbNMTx9zuMcJNcdK5MtEVvI687G<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome test@test.com
+Whole Exception:System.Exception: Log in Successfull, Welcome test@test.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:53:56 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:34 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:34 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:34 PM
+SOURCE:System.Windows.Forms
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:34 PM
+SOURCE:
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Exception: Thread was being aborted.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:48 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:48 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:57 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:57 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:57 PM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:57 PM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:57 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:58 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:58 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:58 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome test@test.com
+Whole Exception:System.Exception: Log in Successfull, Welcome test@test.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:54:58 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:35 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:35 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:37 PM
+SOURCE:
+MESSAGE:
+$2y$12$MVWbiTG1Bg9NrpFQf9Lm4uF0OEJQetBCYOmUnm8fmsIZGM.q6eoIK<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$MVWbiTG1Bg9NrpFQf9Lm4uF0OEJQetBCYOmUnm8fmsIZGM.q6eoIK<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome test@test.com
+Whole Exception:System.Exception: Log in Successfull, Welcome test@test.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:38 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:59 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:57:59 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:58:23 PM
+SOURCE:
+MESSAGE:
+$2y$12$gnLx.46v8UHoFkU2xxQQkuZABlqI6SELJc.IgBZithJ8RVX9NG/Bm<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$gnLx.46v8UHoFkU2xxQQkuZABlqI6SELJc.IgBZithJ8RVX9NG/Bm<div class='alert alert-success'>User with Email [ test@test.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:58:23 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:07 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:08 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:16 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:32 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:32 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:40 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:44 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:44 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:52 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:57 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 15:59:57 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:07 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:10 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:10 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:13 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:17 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:17 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:25 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:28 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:00:28 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:21 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:27 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:55 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:01:55 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:02:20 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:02:26 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:02:26 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:20 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:20 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:35 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome juja@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome juja@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:39 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:55 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:19:56 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:03 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:07 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:07 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:24 PM
+SOURCE:
+MESSAGE:
+Invalid password.
+Whole Exception:System.Exception: 
+Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:28 PM
+SOURCE:
+MESSAGE:Exception of type 'System.Exception' was thrown.
+Whole Exception:System.Exception: Exception of type 'System.Exception' was thrown.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:28 PM
+SOURCE:
+MESSAGE:Invalid password.
+Whole Exception:System.Exception: Invalid password.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:35 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:There is no row at position 2.
+Whole Exception:System.Exception: There is no row at position 2.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:System.Data
+MESSAGE:There is no row at position 2.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome fanikiwa254@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome fanikiwa254@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 16:20:39 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:03 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:03 PM
+SOURCE:System.Drawing
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Drawing.SafeNativeMethods.Gdip.GdipDrawImageRectRectI(HandleRef graphics, HandleRef image, Int32 dstx, Int32 dsty, Int32 dstwidth, Int32 dstheight, Int32 srcx, Int32 srcy, Int32 srcwidth, Int32 srcheight, Int32 srcunit, HandleRef imageAttributes, DrawImageAbort callback, HandleRef callbackdata)
+   at System.Drawing.Graphics.DrawImage(Image image, Rectangle destRect, Int32 srcX, Int32 srcY, Int32 srcWidth, Int32 srcHeight, GraphicsUnit srcUnit, ImageAttributes imageAttrs, DrawImageAbort callback, IntPtr callbackData)
+   at System.Drawing.Graphics.DrawImage(Image image, Rectangle destRect, Int32 srcX, Int32 srcY, Int32 srcWidth, Int32 srcHeight, GraphicsUnit srcUnit, ImageAttributes imageAttr)
+   at System.Windows.Forms.ControlPaint.DrawBackgroundImage(Graphics g, Image backgroundImage, Color backColor, ImageLayout backgroundImageLayout, Rectangle bounds, Rectangle clipRect, Point scrollOffset, RightToLeft rightToLeft)
+   at System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle, Color backColor, Point scrollOffset)
+   at System.Windows.Forms.Control.PaintBackground(PaintEventArgs e, Rectangle rectangle)
+   at System.Windows.Forms.Control.OnPaintBackground(PaintEventArgs pevent)
+   at System.Windows.Forms.ScrollableControl.OnPaintBackground(PaintEventArgs e)
+   at System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   at System.Windows.Forms.Control.WmEraseBkgnd(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:03 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:03 PM
+SOURCE:
+MESSAGE:Thread was being aborted.
+Whole Exception:System.Exception: Thread was being aborted.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:18 PM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:18 PM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:22 PM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:22 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:22 PM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:23 PM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:23 PM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:23 PM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome juja@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome juja@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :25/07/2023 23:33:23 PM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:13 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:13 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome juja@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome juja@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:07:17 AM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:14 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:15 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:28 AM
+SOURCE:
+MESSAGE:
+$2y$12$OuH5IFxhqnhTCSnm7kCuj.Ru1Y.hqIy89HcjnWMGsoKiBggqst.A2<div class='alert alert-success'>User with Email [ admin@gmail.com ] was successfully updated.</div>
+Whole Exception:System.Exception: 
+$2y$12$OuH5IFxhqnhTCSnm7kCuj.Ru1Y.hqIy89HcjnWMGsoKiBggqst.A2<div class='alert alert-success'>User with Email [ admin@gmail.com ] was successfully updated.</div>
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:28 AM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:28 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:29 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:29 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:29 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:29 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome admin@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome admin@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 00:11:29 AM
+SOURCE:
+MESSAGE:loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://localhost:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:51 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:51 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:55 AM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:55 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:55 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:55 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:56 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:56 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome admin@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome admin@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 05:28:56 AM
+SOURCE:
+MESSAGE:loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:01 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:02 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:13 AM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:13 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:13 AM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:14 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:14 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:14 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:14 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:14 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome admin@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome admin@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 08:35:15 AM
+SOURCE:
+MESSAGE:loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:28 AM
+SOURCE:
+MESSAGE:finished login_form initialization
+Whole Exception:System.Exception: finished login_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:29 AM
+SOURCE:
+MESSAGE:finished login_form load
+Whole Exception:System.Exception: finished login_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:
+success
+Whole Exception:System.Exception: 
+success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:There is no row at position 1.
+Whole Exception:System.Exception: There is no row at position 1.
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:System.Data
+MESSAGE:There is no row at position 1.
+Whole Exception:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at jkuat_ip_telephony_ui.login_form.save_auto_complete_login() in D:\wakxpx\csharp\visualstudio\2010\jkuat_ip_telephony_admin_module\jkuat_ip_telephony_ui\login_form.cs:line 390
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:finished main_form initialization
+Whole Exception:System.Exception: finished main_form initialization
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:finished main_form load
+Whole Exception:System.Exception: finished main_form load
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:success
+Whole Exception:System.Exception: success
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:Log in Successfull, Welcome admin@gmail.com
+Whole Exception:System.Exception: Log in Successfull, Welcome admin@gmail.com
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :26/07/2023 11:25:52 AM
+SOURCE:
+MESSAGE:loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+Whole Exception:System.Exception: loading [http://127.0.0.1:90/jkuat_ip_telephony/admin.php]
+==================================================================
+
