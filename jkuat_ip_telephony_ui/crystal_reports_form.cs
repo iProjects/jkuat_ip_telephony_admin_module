@@ -108,6 +108,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                toolStripButton_campuses.Enabled = true;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
             }
@@ -160,6 +161,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                toolStripButton_departments.Enabled = true;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
             }
@@ -214,6 +216,7 @@ namespace jkuat_ip_telephony_ui
             }
             catch (Exception ex)
             {
+                toolStripButton_extensions.Enabled = true;
                 _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
                 Log.WriteToErrorLogFile_and_EventViewer(ex);
             }

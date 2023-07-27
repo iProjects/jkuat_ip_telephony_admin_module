@@ -38,7 +38,6 @@
             this.Column_status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_created_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.btndownloadtemplate = new System.Windows.Forms.Button();
             this.btnuploadexcel = new System.Windows.Forms.Button();
             this.btndownloadexcel = new System.Windows.Forms.Button();
@@ -58,7 +57,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(547, 499);
+            this.groupBox2.Size = new System.Drawing.Size(547, 517);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
@@ -85,7 +84,7 @@
             this.dataGridView_departments.Location = new System.Drawing.Point(3, 16);
             this.dataGridView_departments.Name = "dataGridView_departments";
             this.dataGridView_departments.ReadOnly = true;
-            this.dataGridView_departments.Size = new System.Drawing.Size(541, 480);
+            this.dataGridView_departments.Size = new System.Drawing.Size(541, 498);
             this.dataGridView_departments.TabIndex = 1;
             // 
             // Column_id
@@ -124,24 +123,16 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.progressBar1);
             this.groupBox1.Controls.Add(this.btndownloadtemplate);
             this.groupBox1.Controls.Add(this.btnuploadexcel);
             this.groupBox1.Controls.Add(this.btndownloadexcel);
             this.groupBox1.Controls.Add(this.btnclose);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(0, 499);
+            this.groupBox1.Location = new System.Drawing.Point(0, 517);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(547, 71);
+            this.groupBox1.Size = new System.Drawing.Size(547, 53);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 44);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(514, 23);
-            this.progressBar1.TabIndex = 4;
             // 
             // btndownloadtemplate
             // 
@@ -229,6 +220,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_created_date;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button btndownloadtemplate;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

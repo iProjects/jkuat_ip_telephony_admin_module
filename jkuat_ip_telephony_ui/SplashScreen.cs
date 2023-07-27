@@ -197,6 +197,7 @@ namespace jkuat_ip_telephony_ui
             this.lblappname.Size = new System.Drawing.Size(576, 55);
             this.lblappname.TabIndex = 4;
             this.lblappname.Text = "app name";
+            this.lblappname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbltimelapsed
             // 
@@ -582,14 +583,17 @@ namespace jkuat_ip_telephony_ui
                 var _buid_version = Application.ProductVersion;
                 lblbuildversion.Text = "build version - " + _buid_version;
 
-                lblappname.Text = Utils.APP_NAME;
+                //lblappname.Text = Utils.APP_NAME;
+                lblappname.Text = Application.ProductName.ToUpper();
                 lblappname.BackColor = Color.Black;
                 lblappname.ForeColor = Color.Lime;
                 lblappname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20, FontStyle.Bold);
 
                 lblrunningtime.Text = " Loading..........";
 
-                this.Text = Utils.APP_NAME + " Loading..........";
+                //this.Text = Utils.APP_NAME + " Loading..........";
+                this.Text = Application.ProductName.ToUpper() + " Loading..........";
+
 
                 //initialize current running time timer
                 elapsed_timer.Interval = 1000;

@@ -386,7 +386,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:jkuat_ip_telephony_dal, Version=1.0.0.8, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:jkuat_ip_telephony_dal, Version=1.0.0.10, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_813475894404285D8D7249FDA265807C"
@@ -654,7 +654,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Online Ip Telephony"
         "ProductCode" = "8:{64E12EF7-4D2C-44E4-81EB-28C7FCE89164}"
-        "PackageCode" = "8:{34257B4C-205C-4350-A9C1-175BF3BD2970}"
+        "PackageCode" = "8:{3CBAC111-41FF-458C-B001-83E9B658A39C}"
         "UpgradeCode" = "8:{811B7FF2-9E64-4D4F-994D-CD642802821A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

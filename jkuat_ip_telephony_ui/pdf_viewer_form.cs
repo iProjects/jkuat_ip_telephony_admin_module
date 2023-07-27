@@ -193,7 +193,7 @@ namespace jkuat_ip_telephony_ui
         {
             try
             {
-                string help_file = "index.html";
+                string help_file = "help.html";
 
                 string base_directory = AppDomain.CurrentDomain.BaseDirectory;
                 string help_path = Path.Combine(base_directory, "help");

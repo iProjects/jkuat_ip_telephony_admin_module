@@ -270,7 +270,6 @@ UnhandledExceptionEventHandler(UnhandledException);
             Application.Exit();
         }
 
-
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             about_form about = new about_form();
@@ -279,12 +278,12 @@ UnhandledExceptionEventHandler(UnhandledException);
 
         private void help_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            NavigateToHomePage();
         }
 
         private void contactUsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            contact_us_form contact_us = new contact_us_form();
+            contact_us_form contact_us = new contact_us_form(this._notificationmessageEventname);
             contact_us.Show();
         }
 
@@ -362,8 +361,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -375,8 +374,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -388,8 +387,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -401,8 +400,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -414,8 +413,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -427,8 +426,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -440,8 +439,8 @@ UnhandledExceptionEventHandler(UnhandledException);
             {
                 try
                 {
-                    CloseAllOpenForms();
                     collect_admin_info_in_background_worker_thread();
+                    CloseAllOpenForms();
                 }
                 catch (Exception ex)
                 {
@@ -547,8 +546,8 @@ UnhandledExceptionEventHandler(UnhandledException);
                 Invoke(new System.Action(() =>
                 {
                     _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
+                    Utils.LogEventViewer(ex);
                 }));
-                Utils.LogEventViewer(ex);
             }
             finally
             {
@@ -661,39 +660,11 @@ UnhandledExceptionEventHandler(UnhandledException);
 
                         Write_To_Local_Machine_Registery_on_App_first_start();
 
+                        NavigateToHomePage();
+
                         LogIn();
 
                         WriteToCurrentUserRegistery();
-
-                        try
-                        {
-                            string url = System.Configuration.ConfigurationManager.AppSettings["WEB_VERSION_URL"];
-
-                            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-                            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
-                            if (response.StatusDescription.Equals("OK"))
-                            {
-                                Invoke(new System.Action(() =>
-                                {
-                                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(string.Format("loading [{0}]", url), TAG));
-                                }));
-
-                                webBrowser.Invoke(new System.Action(() =>
-                                {
-                                    this.webBrowser.Navigate(url);
-                                }));
-
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            Invoke(new System.Action(() =>
-                            {
-                                _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
-                            }));
-                            Log.WriteToErrorLogFile_and_EventViewer(ex);
-                        }
 
                     }
                     catch (Exception ex)
@@ -1269,6 +1240,37 @@ UnhandledExceptionEventHandler(UnhandledException);
             }
         }
 
+        private void NavigateToHomePage()
+        {
+            try
+            {
+                string help_file = "help.html";
+
+                string base_directory = AppDomain.CurrentDomain.BaseDirectory;
+                string help_path = Path.Combine(base_directory, "help");
+                string help_file_path = Path.Combine(help_path, help_file);
+
+                FileInfo fi = new FileInfo(help_file_path);
+
+                if (fi.Exists)
+                {
+                    webBrowser.Invoke(new System.Action(() =>
+                    {
+                        _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs("loading [ " + fi.FullName + " ]...", TAG));
+                        this.webBrowser.Navigate(fi.FullName);
+                    }));
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Invoke(new System.Action(() =>
+                {
+                    _notificationmessageEventname.Invoke(this, new notificationmessageEventArgs(ex.ToString(), TAG));
+                }));
+                Utils.LogEventViewer(ex);
+            }
+        }
 
 
 
